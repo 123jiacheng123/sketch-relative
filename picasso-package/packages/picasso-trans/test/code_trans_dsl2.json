@@ -1,0 +1,541 @@
+{
+  "type": "Container",
+  "id": "A9462523-2996-44C5-984F-80E1EEC71B2E",
+  "name": "symbol切片处理case",
+  "symbolName": "",
+  "panel": {
+    "properties": {
+      "name": "symbol切片处理case",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 375,
+        "height": 1116
+      },
+      "opacity": 1
+    },
+    "fills": [
+      {
+        "type": 0,
+        "color": {
+          "red": 203,
+          "green": 21,
+          "blue": 21,
+          "alpha": 1
+        }
+      }
+    ],
+    "typefaces": [],
+    "borders": [],
+    "shadows": [],
+    "code": ""
+  },
+  "structure": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 1116
+  },
+  "style": {
+    "boxShadow": [],
+    "borderRadius": {
+      "topLeft": null,
+      "topRight": null,
+      "bottomRight": null,
+      "bottomLeft": null
+    },
+    "background": {
+      "color": {
+        "red": 203,
+        "green": 21,
+        "blue": 21,
+        "alpha": 1
+      }
+    }
+  },
+  "value": "https://wos.58cdn.com.cn/cDazYxWcDHJ/picasso/74757l53.png",
+  "children": [
+    {
+      "type": "Container",
+      "id": "FC6A8845-75BC-45EE-9A5D-28D0E221821F",
+      "name": "Rectangle",
+      "symbolName": "",
+      "panel": {
+        "properties": {
+          "name": "Rectangle",
+          "position": {
+            "x": 44,
+            "y": 146
+          },
+          "size": {
+            "width": 284,
+            "height": 330
+          },
+          "opacity": 1,
+          "radius": 0
+        },
+        "fills": [],
+        "typefaces": [],
+        "borders": [
+          {
+            "position": 1,
+            "thickness": 2,
+            "fill": {
+              "type": 0,
+              "color": {
+                "red": 151,
+                "green": 151,
+                "blue": 151,
+                "alpha": 1
+              }
+            }
+          }
+        ],
+        "shadows": [],
+        "code": ""
+      },
+      "structure": {
+        "x": 44,
+        "y": 146,
+        "width": 284,
+        "height": 330,
+        "border": {
+          "left": {
+            "width": 2,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          },
+          "top": {
+            "width": 2,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          },
+          "right": {
+            "width": 2,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          },
+          "bottom": {
+            "width": 2,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          }
+        }
+      },
+      "style": {
+        "boxShadow": [],
+        "borderRadius": {
+          "topLeft": 0,
+          "topRight": 0,
+          "bottomRight": 0,
+          "bottomLeft": 0
+        },
+        "background": {}
+      },
+      "children": []
+    },
+    {
+      "type": "Image",
+      "id": "17BDF85E-E39E-41E3-B809-A020EDEADF6A",
+      "name": "Rectangle2",
+      "symbolName": "Rectangle",
+      "panel": {
+        "properties": {
+          "name": "Rectangle2",
+          "position": {
+            "x": 46,
+            "y": 146
+          },
+          "size": {
+            "width": 284,
+            "height": 330
+          },
+          "opacity": 1
+        },
+        "fills": [],
+        "typefaces": [],
+        "borders": [],
+        "shadows": [],
+        "code": ""
+      },
+      "structure": {
+        "x": 46,
+        "y": 146,
+        "width": 284,
+        "height": 330
+      },
+      "style": {
+        "boxShadow": [],
+        "borderRadius": {
+          "topLeft": null,
+          "topRight": null,
+          "bottomRight": null,
+          "bottomLeft": null
+        },
+        "background": {}
+      },
+      "value": "https://wos.58cdn.com.cn/cDazYxWcDHJ/picasso/ace3cfb5181527d6b20c5096adb28fb34e435b43.png",
+      "children": []
+    },
+    {
+      "type": "Image",
+      "id": "04DB7CB2-A8DB-4B49-98D2-14382E290708",
+      "name": "Rectangle1",
+      "symbolName": "Rectangle",
+      "panel": {
+        "properties": {
+          "name": "Rectangle1",
+          "position": {
+            "x": 114.5,
+            "y": 557.5
+          },
+          "size": {
+            "width": 215,
+            "height": 163
+          },
+          "opacity": 1
+        },
+        "fills": [],
+        "typefaces": [],
+        "borders": [],
+        "shadows": [],
+        "code": ""
+      },
+      "structure": {
+        "x": 115,
+        "y": 558,
+        "width": 215,
+        "height": 163
+      },
+      "style": {
+        "boxShadow": [],
+        "borderRadius": {
+          "topLeft": null,
+          "topRight": null,
+          "bottomRight": null,
+          "bottomLeft": null
+        },
+        "background": {}
+      },
+      "value": "https://wos.58cdn.com.cn/cDazYxWcDHJ/picasso/ace3cfb5181527d6b20c5096adb28fb34e435b43.png",
+      "children": []
+    },
+    {
+      "type": "Container",
+      "id": "70CE7A1E-B2F0-438A-8672-58A01C70B89D",
+      "name": "Rectangle",
+      "symbolName": "",
+      "panel": {
+        "properties": {
+          "name": "Rectangle",
+          "position": {
+            "x": 80,
+            "y": 169
+          },
+          "size": {
+            "width": 215,
+            "height": 271
+          },
+          "opacity": 1,
+          "radius": 0
+        },
+        "fills": [
+          {
+            "type": 0,
+            "color": {
+              "red": 216,
+              "green": 216,
+              "blue": 216,
+              "alpha": 1
+            }
+          }
+        ],
+        "typefaces": [],
+        "borders": [
+          {
+            "position": 1,
+            "thickness": 1,
+            "fill": {
+              "type": 0,
+              "color": {
+                "red": 151,
+                "green": 151,
+                "blue": 151,
+                "alpha": 1
+              }
+            }
+          }
+        ],
+        "shadows": [],
+        "code": ""
+      },
+      "structure": {
+        "x": 80,
+        "y": 169,
+        "width": 215,
+        "height": 271,
+        "border": {
+          "left": {
+            "width": 1,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          },
+          "top": {
+            "width": 1,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          },
+          "right": {
+            "width": 1,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          },
+          "bottom": {
+            "width": 1,
+            "style": "solid",
+            "color": {
+              "red": 151,
+              "green": 151,
+              "blue": 151,
+              "alpha": 1
+            }
+          }
+        }
+      },
+      "style": {
+        "boxShadow": [],
+        "borderRadius": {
+          "topLeft": 0,
+          "topRight": 0,
+          "bottomRight": 0,
+          "bottomLeft": 0
+        },
+        "background": {
+          "color": {
+            "red": 216,
+            "green": 216,
+            "blue": 216,
+            "alpha": 1
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "type": "Text",
+      "id": "25A6D2C4-230B-403F-ABED-2EE119568626",
+      "name": "Type something",
+      "symbolName": "",
+      "panel": {
+        "properties": {
+          "name": "Type something",
+          "position": {
+            "x": 115,
+            "y": 255
+          },
+          "size": {
+            "width": 130,
+            "height": 74
+          },
+          "opacity": 1
+        },
+        "fills": [],
+        "typefaces": [
+          {
+            "fontFamily": "PingFangSC-Regular",
+            "fontWeight": "Regular",
+            "alignment": 0,
+            "verticalAlignment": 0,
+            "color": {
+              "red": 171,
+              "green": 21,
+              "blue": 21,
+              "alpha": 1
+            },
+            "fontSize": 26,
+            "letterSpacing": 0,
+            "lineHeight": 37,
+            "paragraphSpacing": 0,
+            "content": "Type"
+          },
+          {
+            "fontFamily": "PingFangSC-Regular",
+            "fontWeight": "Regular",
+            "alignment": 0,
+            "verticalAlignment": 0,
+            "color": {
+              "red": 51,
+              "green": 51,
+              "blue": 51,
+              "alpha": 1
+            },
+            "fontSize": 26,
+            "letterSpacing": 0,
+            "lineHeight": 37,
+            "paragraphSpacing": 0,
+            "content": " "
+          },
+          {
+            "fontFamily": "PingFangSC-Regular",
+            "fontWeight": "Regular",
+            "alignment": 0,
+            "verticalAlignment": 0,
+            "color": {
+              "red": 56,
+              "green": 37,
+              "blue": 37,
+              "alpha": 1
+            },
+            "fontSize": 26,
+            "letterSpacing": 0,
+            "lineHeight": 37,
+            "paragraphSpacing": 0,
+            "content": "something"
+          }
+        ],
+        "borders": [],
+        "shadows": [],
+        "code": ""
+      },
+      "structure": {
+        "x": 115,
+        "y": 255,
+        "width": 130,
+        "height": 74
+      },
+      "style": {
+        "textShadow": [],
+        "borderRadius": {
+          "topLeft": null,
+          "topRight": null,
+          "bottomRight": null,
+          "bottomLeft": null
+        },
+        "background": {},
+        "textStyle": {
+          "textAlign": "left",
+          "lineHeight": 37,
+          "color": {
+            "alpha": 1,
+            "red": 171,
+            "green": 21,
+            "blue": 21
+          },
+          "fontSize": 26,
+          "fontFamily": "PingFangSC-Regular",
+          "fontWeight": 400
+        }
+      },
+      "value": "Type something",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Type",
+          "style": {
+            "textStyle": {
+              "lineHeight": 37,
+              "textAlign": "left",
+              "color": {
+                "alpha": 1,
+                "red": 171,
+                "green": 21,
+                "blue": 21
+              },
+              "fontSize": 26,
+              "fontFamily": "PingFangSC-Regular",
+              "fontWeight": 400
+            }
+          },
+          "structure": {
+            "height": 74,
+            "y": 255,
+            "x": 115
+          }
+        },
+        {
+          "type": "Text",
+          "value": " ",
+          "style": {
+            "textStyle": {
+              "lineHeight": 37,
+              "textAlign": "left",
+              "color": {
+                "alpha": 1,
+                "red": 51,
+                "green": 51,
+                "blue": 51
+              },
+              "fontSize": 26,
+              "fontFamily": "PingFangSC-Regular",
+              "fontWeight": 400
+            }
+          },
+          "structure": {
+            "height": 74,
+            "y": 255
+          }
+        },
+        {
+          "type": "Text",
+          "value": "something",
+          "style": {
+            "textStyle": {
+              "lineHeight": 37,
+              "textAlign": "left",
+              "color": {
+                "alpha": 1,
+                "red": 56,
+                "green": 37,
+                "blue": 37
+              },
+              "fontSize": 26,
+              "fontFamily": "PingFangSC-Regular",
+              "fontWeight": 400
+            }
+          },
+          "structure": {
+            "height": 74,
+            "y": 255
+          }
+        }
+      ]
+    }
+  ]
+}

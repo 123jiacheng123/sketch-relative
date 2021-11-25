@@ -1,0 +1,1479 @@
+{
+    "type": "Container",
+    "id": "535437CA-9B2A-44DB-A383-7D2A6D598104",
+    "name": "iphonex备份",
+    "panel": {
+        "properties": {
+            "name": "iphonex备份",
+            "position": { "x": 0, "y": 0 },
+            "size": { "width": 375, "height": 812 },
+            "opacity": 1
+        },
+        "fills": [],
+        "typefaces": [],
+        "borders": [],
+        "shadows": [],
+        "code": ""
+    },
+    "structure": { "x": 0, "y": 0, "width": 375, "height": 812, "zIndex": 1 },
+    "style": {
+        "boxShadow": [],
+        "borderRadius": {
+            "topLeft": null,
+            "topRight": null,
+            "bottomRight": null,
+            "bottomLeft": null
+        },
+        "background": {
+            "color": { "red": 255, "green": 255, "blue": 255, "alpha": 1 }
+        },
+        "width": 375,
+        "margin": "0 auto",
+        "overflow": "hidden"
+    },
+    "value": "imageUrl",
+    "children": [
+        {
+            "type": "Container",
+            "id": "F31B644F-0B04-4415-85D0-1781441C5531",
+            "name": "Dim",
+            "panel": {
+                "properties": {
+                    "name": "Dim",
+                    "position": { "x": 0, "y": 0 },
+                    "size": { "width": 375, "height": 812 },
+                    "opacity": 1,
+                    "radius": 0
+                },
+                "fills": [
+                    {
+                        "type": 0,
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0.4
+                        }
+                    }
+                ],
+                "typefaces": [],
+                "borders": [],
+                "shadows": [],
+                "code": ""
+            },
+            "structure": {
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 812,
+                "zIndex": 2
+            },
+            "style": {
+                "boxShadow": [],
+                "borderRadius": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                },
+                "background": {
+                    "color": { "red": 0, "green": 0, "blue": 0, "alpha": 0.4 }
+                },
+                "width": 375
+            },
+            "children": [
+                {
+                    "type": "Container",
+                    "id": "3EEA1A4C-CE99-4E4F-8947-7457BC1FFC5A",
+                    "name": "iPhone X Frame",
+                    "panel": {
+                        "properties": {
+                            "name": "iPhone X Frame",
+                            "position": { "x": 0, "y": 0 },
+                            "size": { "width": 375, "height": 812 },
+                            "opacity": 1
+                        },
+                        "fills": [],
+                        "typefaces": [],
+                        "borders": [],
+                        "shadows": [],
+                        "code": ""
+                    },
+                    "structure": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 375,
+                        "height": 812,
+                        "zIndex": 15
+                    },
+                    "style": {
+                        "boxShadow": [],
+                        "background": {
+                            "image": {
+                                "url": "3EEA1A4C-CE99-4E4F-8947-7457BC1FFC5A@2x.png"
+                            },
+                            "size": { "width": 375, "height": 812 }
+                        },
+                        "width": 375,
+                        "paddingTop": 0.1
+                    },
+                    "value": "3EEA1A4C-CE99-4E4F-8947-7457BC1FFC5A@2x.png",
+                    "children": [
+                        {
+                            "type": "Container",
+                            "id": "DC92E20E-F78C-429D-8683-9F4159766FC9",
+                            "name": "Background",
+                            "panel": {
+                                "properties": {
+                                    "name": "Background",
+                                    "position": { "x": 0, "y": 18 },
+                                    "size": {
+                                        "width": 374.7849419377488,
+                                        "height": 19.98853023667994
+                                    },
+                                    "opacity": 1,
+                                    "radius": 0
+                                },
+                                "fills": [
+                                    {
+                                        "type": 0,
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                ],
+                                "typefaces": [],
+                                "borders": [],
+                                "shadows": [],
+                                "code": ""
+                            },
+                            "structure": {
+                                "x": 0,
+                                "y": 18,
+                                "width": 375,
+                                "height": 20,
+                                "zIndex": 16
+                            },
+                            "style": {
+                                "boxShadow": [],
+                                "borderRadius": {
+                                    "topLeft": 0,
+                                    "topRight": 0,
+                                    "bottomRight": 0,
+                                    "bottomLeft": 0
+                                },
+                                "background": {},
+                                "width": 375,
+                                "marginTop": 18,
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "alignItems": "center"
+                            },
+                            "children": [
+                                {
+                                    "type": "Text",
+                                    "id": "F432D33A-E76A-4785-99EF-F9350DC87FBB",
+                                    "name": "9:41",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "9:41",
+                                            "position": {
+                                                "x": 19.988530236679935,
+                                                "y": 20.501433699411027
+                                            },
+                                            "size": {
+                                                "width": 45,
+                                                "height": 16
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [
+                                            {
+                                                "fontFamily": "Helvetica",
+                                                "fontWeight": "",
+                                                "alignment": 0,
+                                                "verticalAlignment": 0,
+                                                "color": {
+                                                    "red": 0,
+                                                    "green": 0,
+                                                    "blue": 0,
+                                                    "alpha": 1
+                                                },
+                                                "fontSize": 11.99311814200796,
+                                                "letterSpacing": 0,
+                                                "lineHeight": 15.99311814200796,
+                                                "paragraphSpacing": 0,
+                                                "content": "9:41 AM"
+                                            }
+                                        ],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 20,
+                                        "y": 21,
+                                        "width": 45,
+                                        "height": 16,
+                                        "zIndex": 20
+                                    },
+                                    "style": {
+                                        "textShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {},
+                                        "textStyle": {
+                                            "textAlign": "left",
+                                            "lineHeight": 15.99311814200796,
+                                            "color": {
+                                                "alpha": 1,
+                                                "red": 0,
+                                                "green": 0,
+                                                "blue": 0
+                                            },
+                                            "fontSize": 11.99311814200796,
+                                            "fontFamily": "Helvetica"
+                                        },
+                                        "marginLeft": 20
+                                    },
+                                    "value": "9:41 AM",
+                                    "className": "feather"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "FBFF6B9D-BB94-4D85-B856-F6BFBA07AA98",
+                                    "name": "Shape",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "Shape",
+                                            "position": {
+                                                "x": 73.95798987429612,
+                                                "y": 23.99736288691733
+                                            },
+                                            "size": {
+                                                "width": 9.992366433595121,
+                                                "height": 9.993461302426619
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 74,
+                                        "y": 24,
+                                        "width": 10,
+                                        "height": 10,
+                                        "zIndex": 21
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {},
+                                        "marginLeft": 9
+                                    },
+                                    "value": "FBFF6B9D-BB94-4D85-B856-F6BFBA07AA98@2x.png",
+                                    "children": [],
+                                    "className": "zoo"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "DE998E80-2757-4406-AF14-7A296C734D2D",
+                                    "name": "Signal Icon",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "Signal Icon",
+                                            "position": {
+                                                "x": 288.834261920025,
+                                                "y": 22.997132559169984
+                                            },
+                                            "size": {
+                                                "width": 16.49053744526095,
+                                                "height": 9.99426511833997
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 289,
+                                        "y": 23,
+                                        "width": 16,
+                                        "height": 10,
+                                        "zIndex": 23
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {},
+                                        "marginLeft": 205
+                                    },
+                                    "value": "DE998E80-2757-4406-AF14-7A296C734D2D@2x.png",
+                                    "children": [],
+                                    "className": "build"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "BBAE4F19-9538-4FB1-B272-4F480B23FB70",
+                                    "name": "Wifi",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "Wifi",
+                                            "position": {
+                                                "x": 310.32193192445607,
+                                                "y": 23.49684581508698
+                                            },
+                                            "size": {
+                                                "width": 11.99311814200796,
+                                                "height": 8.994838606505972
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 310,
+                                        "y": 23,
+                                        "width": 12,
+                                        "height": 9,
+                                        "zIndex": 22
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {},
+                                        "marginLeft": 5
+                                    },
+                                    "value": "BBAE4F19-9538-4FB1-B272-4F480B23FB70@2x.png",
+                                    "children": [],
+                                    "className": "field"
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "093B1463-2B41-4CD4-BEC9-7D5D67F567B7",
+                                    "name": "Shape",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "Shape",
+                                            "position": {
+                                                "x": 327.3121826256339,
+                                                "y": 22.497419303252986
+                                            },
+                                            "size": {
+                                                "width": 23.98623628401592,
+                                                "height": 11.49340488609096
+                                            },
+                                            "opacity": 0.5,
+                                            "radius": 1.998853023667994
+                                        },
+                                        "fills": [],
+                                        "typefaces": [],
+                                        "borders": [
+                                            {
+                                                "position": 1,
+                                                "thickness": 0.9994265118339969,
+                                                "fill": {
+                                                    "type": 0,
+                                                    "color": {
+                                                        "red": 0,
+                                                        "green": 0,
+                                                        "blue": 0,
+                                                        "alpha": 1
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 327,
+                                        "y": 22,
+                                        "width": 24,
+                                        "height": 11,
+                                        "border": {
+                                            "left": {
+                                                "width": 1,
+                                                "style": "solid",
+                                                "color": {
+                                                    "red": 0,
+                                                    "green": 0,
+                                                    "blue": 0,
+                                                    "alpha": 0.5
+                                                }
+                                            },
+                                            "top": {
+                                                "width": 1,
+                                                "style": "solid",
+                                                "color": {
+                                                    "red": 0,
+                                                    "green": 0,
+                                                    "blue": 0,
+                                                    "alpha": 0.5
+                                                }
+                                            },
+                                            "right": {
+                                                "width": 1,
+                                                "style": "solid",
+                                                "color": {
+                                                    "red": 0,
+                                                    "green": 0,
+                                                    "blue": 0,
+                                                    "alpha": 0.5
+                                                }
+                                            },
+                                            "bottom": {
+                                                "width": 1,
+                                                "style": "solid",
+                                                "color": {
+                                                    "red": 0,
+                                                    "green": 0,
+                                                    "blue": 0,
+                                                    "alpha": 0.5
+                                                }
+                                            }
+                                        },
+                                        "zIndex": 17
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": 2,
+                                            "topRight": 2,
+                                            "bottomRight": 2,
+                                            "bottomLeft": 2
+                                        },
+                                        "background": {},
+                                        "marginLeft": 5
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Container",
+                                            "id": "8F113B34-4FA9-41A7-94E4-60E90EAEDFDF",
+                                            "name": "Shape",
+                                            "panel": {
+                                                "properties": {
+                                                    "name": "Shape",
+                                                    "position": {
+                                                        "x": 329.31103564930186,
+                                                        "y": 24.49627232692098
+                                                    },
+                                                    "size": {
+                                                        "width": 15.99082418934395,
+                                                        "height": 7.495698838754976
+                                                    },
+                                                    "opacity": 1,
+                                                    "radius": 0.4997132559169986
+                                                },
+                                                "fills": [
+                                                    {
+                                                        "type": 0,
+                                                        "color": {
+                                                            "red": 0,
+                                                            "green": 0,
+                                                            "blue": 0,
+                                                            "alpha": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typefaces": [],
+                                                "borders": [],
+                                                "shadows": [],
+                                                "code": ""
+                                            },
+                                            "structure": {
+                                                "x": 329,
+                                                "y": 24,
+                                                "width": 16,
+                                                "height": 7,
+                                                "zIndex": 18
+                                            },
+                                            "style": {
+                                                "boxShadow": [],
+                                                "borderRadius": {
+                                                    "topLeft": 0,
+                                                    "topRight": 0,
+                                                    "bottomRight": 0,
+                                                    "bottomLeft": 0
+                                                },
+                                                "background": {
+                                                    "color": {
+                                                        "red": 0,
+                                                        "green": 0,
+                                                        "blue": 0,
+                                                        "alpha": 1
+                                                    }
+                                                },
+                                                "width": 16,
+                                                "marginLeft": 1
+                                            },
+                                            "children": [],
+                                            "className": "salad"
+                                        }
+                                    ],
+                                    "className": "nationality"
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "6F44110B-BA0E-498D-B052-22D3017C8D36",
+                                    "name": "Shape",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "Shape",
+                                            "position": {
+                                                "x": 352.2978454214839,
+                                                "y": 26.495125350588975
+                                            },
+                                            "size": {
+                                                "width": 1.499139767750995,
+                                                "height": 3.497992791418989
+                                            },
+                                            "opacity": 0.5,
+                                            "radius": 0
+                                        },
+                                        "fills": [
+                                            {
+                                                "type": 0,
+                                                "color": {
+                                                    "red": 0,
+                                                    "green": 0,
+                                                    "blue": 0,
+                                                    "alpha": 1
+                                                }
+                                            }
+                                        ],
+                                        "typefaces": [],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 352,
+                                        "y": 26,
+                                        "width": 1,
+                                        "height": 3,
+                                        "zIndex": 19
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": 0,
+                                            "topRight": 2,
+                                            "bottomRight": 2,
+                                            "bottomLeft": 0
+                                        },
+                                        "background": {
+                                            "color": {
+                                                "red": 0,
+                                                "green": 0,
+                                                "blue": 0,
+                                                "alpha": 0.5
+                                            }
+                                        },
+                                        "marginLeft": 1
+                                    },
+                                    "children": [],
+                                    "className": "ferry"
+                                }
+                            ],
+                            "class": "Row",
+                            "className": "unconditional"
+                        }
+                    ],
+                    "className": "pence"
+                },
+                {
+                    "type": "Container",
+                    "id": "ADDA1887-58EF-4DAA-A36F-E27115D6B0B8",
+                    "name": "矩形",
+                    "panel": {
+                        "properties": {
+                            "name": "矩形",
+                            "position": { "x": 0, "y": 0 },
+                            "size": { "width": 250, "height": 44 },
+                            "opacity": 1,
+                            "radius": 0
+                        },
+                        "fills": [
+                            {
+                                "type": 0,
+                                "color": {
+                                    "red": 255,
+                                    "green": 255,
+                                    "blue": 255,
+                                    "alpha": 1
+                                }
+                            }
+                        ],
+                        "typefaces": [],
+                        "borders": [],
+                        "shadows": [],
+                        "code": ""
+                    },
+                    "structure": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 250,
+                        "height": 44,
+                        "zIndex": 5
+                    },
+                    "style": {
+                        "boxShadow": [],
+                        "borderRadius": {
+                            "topLeft": 0,
+                            "topRight": 0,
+                            "bottomRight": 0,
+                            "bottomLeft": 0
+                        },
+                        "background": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 1
+                            }
+                        },
+                        "width": 250,
+                        "marginTop": -812
+                    },
+                    "children": [],
+                    "className": "building"
+                },
+                {
+                    "type": "Container",
+                    "id": "C09C1154-000A-4994-B436-8C77FEDAB883",
+                    "name": "White",
+                    "panel": {
+                        "properties": {
+                            "name": "White",
+                            "position": { "x": 0, "y": 44 },
+                            "size": { "width": 250, "height": 684 },
+                            "opacity": 1,
+                            "radius": 0
+                        },
+                        "fills": [
+                            {
+                                "type": 0,
+                                "color": {
+                                    "red": 255,
+                                    "green": 255,
+                                    "blue": 255,
+                                    "alpha": 1
+                                }
+                            }
+                        ],
+                        "typefaces": [],
+                        "borders": [],
+                        "shadows": [],
+                        "code": ""
+                    },
+                    "structure": {
+                        "x": 0,
+                        "y": 44,
+                        "width": 250,
+                        "height": 684,
+                        "zIndex": 6
+                    },
+                    "style": {
+                        "boxShadow": [],
+                        "borderRadius": {
+                            "topLeft": 0,
+                            "topRight": 0,
+                            "bottomRight": 0,
+                            "bottomLeft": 0
+                        },
+                        "background": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 1
+                            }
+                        },
+                        "width": 250,
+                        "paddingTop": 0.1
+                    },
+                    "children": [
+                        {
+                            "type": "Container",
+                            "id": "0E53DF18-D0C7-41D7-A003-D736859A4C7F",
+                            "name": "矩形",
+                            "panel": {
+                                "properties": {
+                                    "name": "矩形",
+                                    "position": { "x": 0, "y": 402 },
+                                    "size": { "width": 250, "height": 46 },
+                                    "opacity": 1,
+                                    "radius": 0
+                                },
+                                "fills": [
+                                    {
+                                        "type": 0,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    }
+                                ],
+                                "typefaces": [],
+                                "borders": [],
+                                "shadows": [],
+                                "code": ""
+                            },
+                            "structure": {
+                                "x": 0,
+                                "y": 402,
+                                "width": 250,
+                                "height": 46,
+                                "zIndex": 9
+                            },
+                            "style": {
+                                "boxShadow": [],
+                                "borderRadius": {
+                                    "topLeft": 0,
+                                    "topRight": 0,
+                                    "bottomRight": 0,
+                                    "bottomLeft": 0
+                                },
+                                "background": {
+                                    "color": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 1
+                                    }
+                                },
+                                "width": 250,
+                                "marginTop": 358,
+                                "paddingTop": 0.1
+                            },
+                            "children": [
+                                {
+                                    "type": "Text",
+                                    "id": "F0D9EE44-7004-4B18-9DE4-67BD891016F6",
+                                    "name": "FAQ",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "FAQ",
+                                            "position": { "x": 69, "y": 413 },
+                                            "size": {
+                                                "width": 69,
+                                                "height": 23
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [
+                                            {
+                                                "fontFamily": "PingFangSC-Medium",
+                                                "fontWeight": "Medium",
+                                                "alignment": 0,
+                                                "verticalAlignment": 0,
+                                                "color": {
+                                                    "red": 51,
+                                                    "green": 51,
+                                                    "blue": 51,
+                                                    "alpha": 1
+                                                },
+                                                "fontSize": 16,
+                                                "letterSpacing": 0,
+                                                "lineHeight": 22,
+                                                "paragraphSpacing": 0,
+                                                "content": "帮助中心"
+                                            },
+                                            {
+                                                "fontFamily": "Avenir-Medium",
+                                                "fontWeight": "Medium",
+                                                "alignment": 0,
+                                                "verticalAlignment": 0,
+                                                "color": {
+                                                    "red": 51,
+                                                    "green": 51,
+                                                    "blue": 51,
+                                                    "alpha": 1
+                                                },
+                                                "fontSize": 16,
+                                                "letterSpacing": 0,
+                                                "lineHeight": 22,
+                                                "paragraphSpacing": 0,
+                                                "content": " "
+                                            }
+                                        ],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 69,
+                                        "y": 413,
+                                        "width": 69,
+                                        "height": 23,
+                                        "zIndex": 10
+                                    },
+                                    "style": {
+                                        "textShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {},
+                                        "textStyle": {
+                                            "textAlign": "left",
+                                            "lineHeight": 22,
+                                            "color": {
+                                                "alpha": 1,
+                                                "red": 51,
+                                                "green": 51,
+                                                "blue": 51
+                                            },
+                                            "fontSize": 16,
+                                            "fontFamily": "PingFangSC-Medium",
+                                            "fontWeight": 500
+                                        },
+                                        "width": 69,
+                                        "marginLeft": 69,
+                                        "marginTop": 11
+                                    },
+                                    "value": "帮助中心 ",
+                                    "children": [
+                                        {
+                                            "type": "Text",
+                                            "value": "帮助中心",
+                                            "style": {
+                                                "textStyle": {
+                                                    "lineHeight": 22,
+                                                    "textAlign": "left",
+                                                    "color": {
+                                                        "alpha": 1,
+                                                        "red": 51,
+                                                        "green": 51,
+                                                        "blue": 51
+                                                    },
+                                                    "fontSize": 16,
+                                                    "fontFamily": "PingFangSC-Medium",
+                                                    "fontWeight": 500
+                                                }
+                                            },
+                                            "structure": {
+                                                "height": 23,
+                                                "y": 413,
+                                                "x": 69
+                                            },
+                                            "className": "manage"
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "value": " ",
+                                            "style": {
+                                                "textStyle": {
+                                                    "lineHeight": 22,
+                                                    "textAlign": "left",
+                                                    "color": {
+                                                        "alpha": 1,
+                                                        "red": 51,
+                                                        "green": 51,
+                                                        "blue": 51
+                                                    },
+                                                    "fontSize": 16,
+                                                    "fontFamily": "Avenir-Medium",
+                                                    "fontWeight": 500
+                                                },
+                                                "marginTop": -23
+                                            },
+                                            "structure": {
+                                                "height": 23,
+                                                "y": 413
+                                            },
+                                            "className": "path"
+                                        }
+                                    ],
+                                    "className": "water"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "C901CB7E-AF15-45E2-87FB-7EB8D41A4F4F",
+                                    "name": "矩形",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "矩形",
+                                            "position": { "x": 32, "y": 415 },
+                                            "size": {
+                                                "width": 22,
+                                                "height": 22
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 32,
+                                        "y": 415,
+                                        "width": 22,
+                                        "height": 22,
+                                        "zIndex": 12
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {
+                                            "color": {
+                                                "red": 255,
+                                                "green": 255,
+                                                "blue": 255,
+                                                "alpha": 1
+                                            }
+                                        },
+                                        "width": 22,
+                                        "marginLeft": 32,
+                                        "marginTop": -21
+                                    },
+                                    "value": "C901CB7E-AF15-45E2-87FB-7EB8D41A4F4F@2x.png",
+                                    "children": [],
+                                    "className": "example"
+                                }
+                            ],
+                            "class_name": "li",
+                            "class_type": 3,
+                            "className": "stewardess"
+                        },
+                        {
+                            "type": "Container",
+                            "id": "F9E97B95-E625-4E45-AD86-7FA8EF93C57E",
+                            "name": "矩形",
+                            "panel": {
+                                "properties": {
+                                    "name": "矩形",
+                                    "position": { "x": 0, "y": 448 },
+                                    "size": { "width": 250, "height": 46 },
+                                    "opacity": 1,
+                                    "radius": 0
+                                },
+                                "fills": [
+                                    {
+                                        "type": 0,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    }
+                                ],
+                                "typefaces": [],
+                                "borders": [],
+                                "shadows": [],
+                                "code": ""
+                            },
+                            "structure": {
+                                "x": 0,
+                                "y": 448,
+                                "width": 250,
+                                "height": 46,
+                                "zIndex": 7
+                            },
+                            "style": {
+                                "boxShadow": [],
+                                "borderRadius": {
+                                    "topLeft": 0,
+                                    "topRight": 0,
+                                    "bottomRight": 0,
+                                    "bottomLeft": 0
+                                },
+                                "background": {
+                                    "color": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 1
+                                    }
+                                },
+                                "width": 250,
+                                "paddingTop": 0.1
+                            },
+                            "children": [
+                                {
+                                    "type": "Text",
+                                    "id": "3886BE23-0CC7-47F7-B349-0CEE1F5C4568",
+                                    "name": "Settings",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "Settings",
+                                            "position": { "x": 69, "y": 459 },
+                                            "size": {
+                                                "width": 37,
+                                                "height": 23
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [
+                                            {
+                                                "fontFamily": "PingFangSC-Medium",
+                                                "fontWeight": "Medium",
+                                                "alignment": 0,
+                                                "verticalAlignment": 0,
+                                                "color": {
+                                                    "red": 51,
+                                                    "green": 51,
+                                                    "blue": 51,
+                                                    "alpha": 1
+                                                },
+                                                "fontSize": 16,
+                                                "letterSpacing": 0,
+                                                "lineHeight": 22,
+                                                "paragraphSpacing": 0,
+                                                "content": "设置"
+                                            },
+                                            {
+                                                "fontFamily": "Avenir-Medium",
+                                                "fontWeight": "Medium",
+                                                "alignment": 0,
+                                                "verticalAlignment": 0,
+                                                "color": {
+                                                    "red": 51,
+                                                    "green": 51,
+                                                    "blue": 51,
+                                                    "alpha": 1
+                                                },
+                                                "fontSize": 16,
+                                                "letterSpacing": 0,
+                                                "lineHeight": 22,
+                                                "paragraphSpacing": 0,
+                                                "content": " "
+                                            }
+                                        ],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 69,
+                                        "y": 459,
+                                        "width": 37,
+                                        "height": 23,
+                                        "zIndex": 8
+                                    },
+                                    "style": {
+                                        "textShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {},
+                                        "textStyle": {
+                                            "textAlign": "left",
+                                            "lineHeight": 22,
+                                            "color": {
+                                                "alpha": 1,
+                                                "red": 51,
+                                                "green": 51,
+                                                "blue": 51
+                                            },
+                                            "fontSize": 16,
+                                            "fontFamily": "PingFangSC-Medium",
+                                            "fontWeight": 500
+                                        },
+                                        "width": 37,
+                                        "marginLeft": 69,
+                                        "marginTop": 11
+                                    },
+                                    "value": "设置 ",
+                                    "children": [
+                                        {
+                                            "type": "Text",
+                                            "value": "设置",
+                                            "style": {
+                                                "textStyle": {
+                                                    "lineHeight": 22,
+                                                    "textAlign": "left",
+                                                    "color": {
+                                                        "alpha": 1,
+                                                        "red": 51,
+                                                        "green": 51,
+                                                        "blue": 51
+                                                    },
+                                                    "fontSize": 16,
+                                                    "fontFamily": "PingFangSC-Medium",
+                                                    "fontWeight": 500
+                                                }
+                                            },
+                                            "structure": {
+                                                "height": 23,
+                                                "y": 459,
+                                                "x": 69
+                                            },
+                                            "className": "hurry"
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "value": " ",
+                                            "style": {
+                                                "textStyle": {
+                                                    "lineHeight": 22,
+                                                    "textAlign": "left",
+                                                    "color": {
+                                                        "alpha": 1,
+                                                        "red": 51,
+                                                        "green": 51,
+                                                        "blue": 51
+                                                    },
+                                                    "fontSize": 16,
+                                                    "fontFamily": "Avenir-Medium",
+                                                    "fontWeight": 500
+                                                },
+                                                "marginTop": -23
+                                            },
+                                            "structure": {
+                                                "height": 23,
+                                                "y": 459
+                                            },
+                                            "className": "argue"
+                                        }
+                                    ],
+                                    "className": "valid"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "0C3449D5-6B05-4D01-96E0-42405C7749B1",
+                                    "name": "ico_settings",
+                                    "panel": {
+                                        "properties": {
+                                            "name": "ico_settings",
+                                            "position": { "x": 32, "y": 463 },
+                                            "size": {
+                                                "width": 22,
+                                                "height": 22
+                                            },
+                                            "opacity": 1
+                                        },
+                                        "fills": [],
+                                        "typefaces": [],
+                                        "borders": [],
+                                        "shadows": [],
+                                        "code": ""
+                                    },
+                                    "structure": {
+                                        "x": 32,
+                                        "y": 463,
+                                        "width": 22,
+                                        "height": 22,
+                                        "zIndex": 11
+                                    },
+                                    "style": {
+                                        "boxShadow": [],
+                                        "borderRadius": {
+                                            "topLeft": null,
+                                            "topRight": null,
+                                            "bottomRight": null,
+                                            "bottomLeft": null
+                                        },
+                                        "background": {
+                                            "color": {
+                                                "red": 255,
+                                                "green": 255,
+                                                "blue": 255,
+                                                "alpha": 1
+                                            }
+                                        },
+                                        "width": 22,
+                                        "marginLeft": 32,
+                                        "marginTop": -19
+                                    },
+                                    "value": "0C3449D5-6B05-4D01-96E0-42405C7749B1@2x.png",
+                                    "children": [],
+                                    "className": "accommodation"
+                                }
+                            ],
+                            "class_name": "li",
+                            "class_type": 3,
+                            "className": "purple"
+                        }
+                    ],
+                    "className": "limit"
+                },
+                {
+                    "type": "Container",
+                    "id": "38E1581A-C69C-4067-B418-A5AF98F6F010",
+                    "name": "Rectangle",
+                    "panel": {
+                        "properties": {
+                            "name": "Rectangle",
+                            "position": { "x": 0, "y": 728 },
+                            "size": { "width": 250, "height": 54 },
+                            "opacity": 1,
+                            "radius": 0
+                        },
+                        "fills": [
+                            {
+                                "type": 0,
+                                "color": {
+                                    "red": 255,
+                                    "green": 162,
+                                    "blue": 45,
+                                    "alpha": 1
+                                }
+                            }
+                        ],
+                        "typefaces": [],
+                        "borders": [],
+                        "shadows": [],
+                        "code": ""
+                    },
+                    "structure": {
+                        "x": 0,
+                        "y": 728,
+                        "width": 250,
+                        "height": 54,
+                        "zIndex": 13
+                    },
+                    "style": {
+                        "boxShadow": [],
+                        "borderRadius": {
+                            "topLeft": 0,
+                            "topRight": 0,
+                            "bottomRight": 0,
+                            "bottomLeft": 0
+                        },
+                        "background": {
+                            "color": {
+                                "red": 255,
+                                "green": 162,
+                                "blue": 45,
+                                "alpha": 1
+                            }
+                        },
+                        "width": 250,
+                        "paddingTop": 0.1
+                    },
+                    "children": [
+                        {
+                            "type": "Text",
+                            "id": "D7EB4102-EAB2-4FB8-B7EE-86E48650B31D",
+                            "name": "Order History Copy",
+                            "panel": {
+                                "properties": {
+                                    "name": "Order History Copy",
+                                    "position": { "x": 90, "y": 744 },
+                                    "size": { "width": 70, "height": 22 },
+                                    "opacity": 1
+                                },
+                                "fills": [],
+                                "typefaces": [
+                                    {
+                                        "fontFamily": "PingFangSC-Medium",
+                                        "fontWeight": "Medium",
+                                        "alignment": 2,
+                                        "verticalAlignment": 0,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        },
+                                        "fontSize": 16,
+                                        "letterSpacing": 0,
+                                        "lineHeight": 22,
+                                        "paragraphSpacing": 0,
+                                        "content": "停止接单"
+                                    }
+                                ],
+                                "borders": [],
+                                "shadows": [],
+                                "code": ""
+                            },
+                            "structure": {
+                                "x": 90,
+                                "y": 744,
+                                "width": 70,
+                                "height": 22,
+                                "zIndex": 14
+                            },
+                            "style": {
+                                "textShadow": [],
+                                "borderRadius": {
+                                    "topLeft": null,
+                                    "topRight": null,
+                                    "bottomRight": null,
+                                    "bottomLeft": null
+                                },
+                                "background": {},
+                                "textStyle": {
+                                    "textAlign": "center",
+                                    "lineHeight": 22,
+                                    "color": {
+                                        "alpha": 1,
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255
+                                    },
+                                    "fontSize": 16,
+                                    "fontFamily": "PingFangSC-Medium",
+                                    "fontWeight": 500
+                                },
+                                "width": 70,
+                                "marginLeft": 90,
+                                "marginTop": 16
+                            },
+                            "value": "停止接单",
+                            "className": "time"
+                        }
+                    ],
+                    "isOnlyText": true,
+                    "className": "mixture"
+                },
+                {
+                    "type": "Container",
+                    "id": "F8812A1A-39A1-40B9-9C2B-A2A0D6273B6B",
+                    "name": "bg",
+                    "panel": {
+                        "properties": {
+                            "name": "bg",
+                            "position": { "x": 0, "y": 782 },
+                            "size": { "width": 250, "height": 30 },
+                            "opacity": 1,
+                            "radius": 0
+                        },
+                        "fills": [
+                            {
+                                "type": 0,
+                                "color": {
+                                    "red": 255,
+                                    "green": 162,
+                                    "blue": 45,
+                                    "alpha": 1
+                                }
+                            }
+                        ],
+                        "typefaces": [],
+                        "borders": [],
+                        "shadows": [],
+                        "code": ""
+                    },
+                    "structure": {
+                        "x": 0,
+                        "y": 782,
+                        "width": 250,
+                        "height": 30,
+                        "zIndex": 3
+                    },
+                    "style": {
+                        "boxShadow": [],
+                        "borderRadius": {
+                            "topLeft": 0,
+                            "topRight": 0,
+                            "bottomRight": 0,
+                            "bottomLeft": 0
+                        },
+                        "background": {
+                            "color": {
+                                "red": 255,
+                                "green": 162,
+                                "blue": 45,
+                                "alpha": 1
+                            }
+                        },
+                        "width": 250,
+                        "paddingTop": 0.1
+                    },
+                    "children": [
+                        {
+                            "type": "Image",
+                            "id": "AFAF2914-D77A-4B74-9B47-125C8A89C49D",
+                            "name": "line",
+                            "panel": {
+                                "properties": {
+                                    "name": "line",
+                                    "position": { "x": 133, "y": 795 },
+                                    "size": { "width": 110, "height": 4 },
+                                    "opacity": 1,
+                                    "radius": 10.45799901983094
+                                },
+                                "fills": [],
+                                "typefaces": [],
+                                "borders": [],
+                                "shadows": [],
+                                "code": ""
+                            },
+                            "structure": {
+                                "x": 133,
+                                "y": 795,
+                                "width": 110,
+                                "height": 4,
+                                "zIndex": 4
+                            },
+                            "style": {
+                                "boxShadow": [],
+                                "borderRadius": {
+                                    "topLeft": 10,
+                                    "topRight": 10,
+                                    "bottomRight": 10,
+                                    "bottomLeft": 10
+                                },
+                                "background": {},
+                                "width": 110,
+                                "marginLeft": 133,
+                                "marginTop": 13
+                            },
+                            "value": "AFAF2914-D77A-4B74-9B47-125C8A89C49D@2x.png",
+                            "children": [],
+                            "className": "consensus"
+                        }
+                    ],
+                    "className": "picnic"
+                }
+            ],
+            "class": "Row",
+            "className": "valley"
+        }
+    ],
+    "className": "rat"
+}
