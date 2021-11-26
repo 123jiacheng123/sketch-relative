@@ -1,3 +1,8 @@
-node_modules/**
-test/code/**
+# npm
+node_modules
+.npm
+npm-debug.log
+package-lock.json
+
+test/code/
 dist/

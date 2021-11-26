@@ -157,7 +157,8 @@ export const formateDslStyle = (data: any) => {
                                             backgroundVal
                                         )
                                     } else if (backgroundKey == 'image' && item.type !== 'Image') {
-                                        propertyVal =`url(../images/${backgroundVal.url})`;
+                                        // propertyVal =`url(../images/${backgroundVal.url})`;
+                                        propertyVal =`url(${backgroundVal.url})`;
                                     } else { // position、size
                                         let valList = []
                                         for (let ref of Object.keys(backgroundVal)) {

@@ -45,6 +45,7 @@ const _parseDSL = (sketchData: SKLayer[], type: string):DSL => {
         // 文本处理
         dslLayer = parseText(dslLayer,layer)
         // 图片处理
+        // @ts-ignore
         dslLayer = parseImage(dslLayer,layer,type)
 
         if (dslLayer.type !=='Text' && Array.isArray(layer.layers)) {
@@ -64,7 +65,7 @@ export default (sketchData: SKLayer[], type: string): DSL => {
         const layer = sketchData[i];
         // 去掉分组
         layer.layers = filterGroupLayer(layer.layers, [], type);
-        // 标注模式下，切片进行排序
+        // 标注模式下，切片进行排序  切片没用到，可以考虑移除
         if (type === 'measure') {
             layer.layers = handleSlicePosition(layer.layers);
         }

@@ -27,10 +27,11 @@ export default (layer:SKLayer, type: string): SKLayer => {
     layers = fixPosition(layers);
     // Mask剪切处理
     layers = trimByMask(layers);
-    // 代码模式，处理切片
-    if (type === 'code' || type === 'lowcode') {
-        layers = handleSlice(layers);
-    }
+    // 代码模式，处理切片 
+    // 用不到切片，可以考虑移除!!!
+    // if (type === 'code' || type === 'lowcode') {
+    //     layers = handleSlice(layers);
+    // }
     // 过滤隐藏图层
     layers = filterHideLayer(layers);
     // 处理透明图层顺序

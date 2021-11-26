@@ -1,46 +1,78 @@
 const fs = require("fs");
 const path = require("path");
+const { exec } = require("child_process");
+const fse = require("fs-extra");
 
 
 const filePath = path.join(__dirname, './sketch/勘探机械04.sketch')
-const outputPath = path.join(__dirname, './sketch/code.json')
+const outputPath = path.join(__dirname, './output')
 
-const file = fs.createReadStream( filePath, { encoding: "utf8" } );
-const out = fs.createWriteStream( outputPath, { encoding: "utf8" } );
+// 获取sketch源文件信息
+exec(
+    `unzip -o ${filePath} -d ${outputPath};`,
+    async (err, stdout, stderr) => {
+        if (err) {
+            console.error(err);
+            return;
+        }
 
-file.on( "data", function ( dataChunk ) {
-    out.write( dataChunk, function () {
-        console.log( "start" );
-    } )
-} )
+        // 复制图片到结果文件夹
+        // fse.copySync(`${outputPath}/images`, `${outputPath}/html/images`);
 
-out.on( "open", function ( fd ) {
-    console.log( "pending", fd );
-} )
+        // // 复制模板资源文件夹
+        // fse.copySync(
+        //     path.join(__dirname, "./template/assets"),
+        //     `${outputPath}/html/assets`
+        // );
+        // // 复制首页
+        // fse.copySync(
+        //     path.join(__dirname, "./template/index.html"),
+        //     `${outputPath}/html/index.html`
+        // );
+        // 读取每个 page 的信息
+        let files = fs.readdirSync(`${outputPath}/pages`);
+        let fileStore = {};
+        files.forEach((f) => {
+            fileStore[f] = JSON.parse(
+                fs.readFileSync(`${outputPath}/pages/` + f).toString()
+            );
+        });
+        // outPages = [];
+        let outResults = [];
+        // 对每个页面进行处理解析
+        for (const f of files) {
+            let data = fileStore[f];
+            // TODO:del
+            // fs.writeFileSync("./tmp/data.json", JSON.stringify(data));
+            // let result = await layerParser(data);
 
-file.on( "end", function () {
-    out.end( "，再见", function () {
-        console.log( "over" );
-        console.log( "共写入%d字节数据", out.bytesWritten );
-    } )
-} )
-// fs.openSync(filePath, 'r+', (err, fd) => {
-//     if (err) return
-//     const fileResult = fs.readFileSync(filePath, 'utf8')
-//     console.log(fileResult);
-//     // fs.writeFileSync(outputPath, fileResult )
-//     // const ws = fs.createWriteStream(outputPath, { flag: 'a' })
-//     // ws.once('open', () => {
-//     //     console.log('开始了');
-        
-//     // })
-//     // ws.write(JSON.stringify(fileResult))
-//     // ws.end()
-//     // ws.once('close', () => {
-//     //     console.log('关闭了');
-        
-//     // })
-// })
+            // fse.outputFileSync(
+            //     `${outputPath}/result.json`,
+            //     JSON.stringify(result)
+            // );
+            // outResults.push(result);
+        }
+        // outResults.forEach((result) => {
+        //     if (result.type === "page") {
+        //         handleArtBoard(result, `page-${result.name}`, outputPath);
+        //     }
+        // });
+
+        // 输出模板页面 js 中的页面配置数据
+        // fse.outputFileSync(
+        //     `${outputPath}/html/index.js`,
+        //     (() => {
+        //         let r = "window.data = [];\n";
+        //         outPages.forEach((p) => {
+        //             r += `data.push({url:'${p.url}',title:'${p.name}',type:'folder'});\n`;
+        //         });
+        //         return r;
+        //     })()
+        // );
+    }
+)
+
+
 
 
 

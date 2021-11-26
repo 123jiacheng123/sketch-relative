@@ -5,7 +5,8 @@ const generateBody = (data:Layer[],tab = '') => {
     for (let i = 0; i < data.length; i++) {
         let record = data[i];
         if (record.type === 'Image' && !(record.children?.length>0)) {
-            html.push(`${tab}<img class="${record.className}" src="${ record.value.indexOf('http') === 0 ? record.value :`../images/${record.value}` }"/>`);
+            // html.push(`${tab}<img class="${record.className}" src="${ record.value.indexOf('http') === 0 ? record.value :`../images/${record.value}` }"/>`);
+            html.push(`${tab}<img class="${record.className}" src="${ record.value }"/>`);
         } else if(record.type === 'Text' && record.children?.length > 0) {
             const tag = 'div';
 
