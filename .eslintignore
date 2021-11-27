@@ -1,5 +1,6 @@
 # npm
-node_modules
+/node_modules
+/output
 .npm
 npm-debug.log
 package-lock.json

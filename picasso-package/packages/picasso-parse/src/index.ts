@@ -30,13 +30,13 @@ export const picassoArtboardMeatureParse = (layer: SKLayer): Component => {
  * @returns { Promise<DSL> }
  * 
  */
-export const picassoArtboardCodeParse = (layer: SKLayer): Component => {
+export const picassoArtboardCodeParse = async (layer: SKLayer): Promise<Component> => {
     // fs.writeFileSync('./code_dsl_1.json',JSON.stringify(layer,null,2));
     // 画板处理
     layer = parseArtboardLayer(layer, 'code');
     // fs.writeFileSync('./code_dsl_2.json',JSON.stringify(layer,null,2));
     // 1.DSL处理
-    let DSL = parseDSL([layer], 'code');
+    let DSL = await parseDSL([layer], 'code');
     // fs.writeFileSync('./code_dsl_3.json',JSON.stringify(DSL,null,2));
     // 2. 特征分组
     DSL = picassoGroup(DSL);

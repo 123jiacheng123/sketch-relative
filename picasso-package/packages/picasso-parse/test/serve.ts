@@ -3,12 +3,14 @@ const fs = require("fs");
 const path = require("path");
 const { exec } = require("child_process");
 const fse = require("fs-extra");
+const ImgStore = require("../src/store/ImgStore");
 
 import { picassoArtboardCodeParse } from '../src'
 import { picassoCodeFile } from '../../picasso-code/src'
 
 const filePath = path.join(__dirname, './sketch/勘探机械04.sketch')
 const outputPath = path.join(__dirname, './output')
+ImgStore.set('absolutePath',outputPath)
 
 // const dsl = require('./entry/original.json') // original  code_dsl2
 // const takeOffWrap = dsl.layers[0]
@@ -20,12 +22,6 @@ const outputPath = path.join(__dirname, './output')
 // picassoCodeFile(layers, path.join(__dirname, './code'))
 
 
-// 获取sketch源文件信息
-// let outputPath = ''
-// if (!outputPath) {
-//     outputPath = "./output";
-// }
-debugger
 exec(
     `unzip -o ${filePath} -d ${outputPath};`,
     async (err, stdout, stderr) => {
@@ -37,17 +33,6 @@ exec(
 
         // 复制图片到结果文件夹
         fse.copySync(`${outputPath}/images`, `${outputPath}/html/images`);
-
-        // // 复制模板资源文件夹
-        // fse.copySync(
-        //     path.join(__dirname, "./template/assets"),
-        //     `${outputPath}/html/assets`
-        // );
-        // // 复制首页
-        // fse.copySync(
-        //     path.join(__dirname, "./template/index.html"),
-        //     `${outputPath}/html/index.html`
-        // );
         // 读取每个 page 的信息
         let files = fs.readdirSync(`${outputPath}/pages`);
         let fileStore = {};
@@ -62,10 +47,8 @@ exec(
         for (const f of files) {
             let data = fileStore[f];
             const takeOffWrap = data.layers[0]
-            const dealData = picassoArtboardCodeParse(takeOffWrap); // 毕加索插件解析后的json
-
+            const dealData = await picassoArtboardCodeParse(takeOffWrap); // 毕加索插件解析后的json
             const layers = [dealData]
-
             //1. web代码生成
             picassoCodeFile(layers, path.join(__dirname, './code'))
             // TODO:del

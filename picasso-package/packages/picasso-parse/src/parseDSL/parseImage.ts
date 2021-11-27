@@ -1,6 +1,7 @@
 import { SKLayer, Image } from '../types';
 const Jimp = require("jimp");
 const path = require("path");
+const ImgStore = require("../store/ImgStore");
 
 /**
  * 切片(Slice) => 图片
@@ -22,20 +23,21 @@ const loader = (filePaths) => {
 const upload = async (file) => {
     let res = await loader(file);
     return res[file];
-    return null;
 };
 
 const bitmapParser = async ({ x, y, w, h, resized_w, resized_h, image }) => {
-    debugger
-    // let outputPath = ImgStore.get("absolutePath");
-    const outputPath = path.join(__dirname, "./output");
+    let outputPath = ImgStore.get("absolutePath");
     let file = path.join(outputPath, image);
     let img = await Jimp.read(file);
     let cropw = Math.min(resized_w, w)
     let croph = Math.min(resized_h, h)
-    await img.resize(resized_w, resized_h).crop(x, y, cropw, croph).writeAsync(file);
-    let res = await upload(file);
-    return res || 'https://p5.ssl.qhimg.com/t01a7f64ff034704297.png';
+    try {
+        // await img.resize(resized_w, resized_h).crop(x, y, cropw, croph).writeAsync(file);
+        let res = await upload(file);
+        return res || image;
+    } catch (error) {
+        console.log(error);
+    }
 };
 
 const parseImage = async (image: any, layer: SKLayer, type: string): Promise<Object> => {
@@ -56,9 +58,8 @@ const parseImage = async (image: any, layer: SKLayer, type: string): Promise<Obj
                 h: 0,
                 image: _ref + "",
             };
-            image.value = await bitmapParser(corpInfo);
+            image.value = await bitmapParser(corpInfo)
         }
-        // image.value = 'https://p5.ssl.qhimg.com/t01a7f64ff034704297.png'
         image.type = 'Image'
     }
     // else if (layer.imageUrl) {
