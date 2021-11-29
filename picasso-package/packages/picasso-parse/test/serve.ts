@@ -8,18 +8,9 @@ const ImgStore = require("../src/store/ImgStore");
 import { picassoArtboardCodeParse } from '../src'
 import { picassoCodeFile } from '../../picasso-code/src'
 
-const filePath = path.join(__dirname, './sketch/勘探机械04.sketch')
+const filePath = path.join(__dirname, './sketch/钢材金属材料02.sketch')
 const outputPath = path.join(__dirname, './output')
 ImgStore.set('absolutePath',outputPath)
-
-// const dsl = require('./entry/original.json') // original  code_dsl2
-// const takeOffWrap = dsl.layers[0]
-// const data = picassoArtboardCodeParse(takeOffWrap); // 毕加索插件解析后的json
-
-// const layers = [data]
-
-// //1. web代码生成
-// picassoCodeFile(layers, path.join(__dirname, './code'))
 
 
 exec(
@@ -29,7 +20,6 @@ exec(
             console.error(err);
             return;
         }
-        // fse.ensureDir(outputPath);
 
         // 复制图片到结果文件夹
         fse.copySync(`${outputPath}/images`, `${outputPath}/html/images`);
@@ -41,7 +31,6 @@ exec(
                 fs.readFileSync(`${outputPath}/pages/` + f).toString()
             );
         });
-        // outPages = [];
         let outResults = [];
         // 对每个页面进行处理解析
         for (const f of files) {
@@ -51,6 +40,7 @@ exec(
             const layers = [dealData]
             //1. web代码生成
             picassoCodeFile(layers, path.join(__dirname, './code'))
+            
             // TODO:del
             // fs.writeFileSync("./tmp/data.json", JSON.stringify(data));
             // let result = await layerParser(data);

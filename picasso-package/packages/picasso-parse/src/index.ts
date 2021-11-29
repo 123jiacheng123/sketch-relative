@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SKLayer, Component } from './types';
 import parseDSL from './parseDSL';
 import parseArtboardLayer from './parseArtboard';
