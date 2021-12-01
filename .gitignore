@@ -1,0 +1,34 @@
+node_modules
+.DS_Store
+dist
+.npmrc
+.cache
+test/code/*
+test/output/*
+test/sketch/*
+
+picasso-package/packages/picasso-parse/test/code/*
+picasso-package/packages/picasso-parse/test/output/*
+picasso-package/packages/picasso-parse/test/sketch/*
+picasso-package/node_modules
+
+.local
+# local env files
+.env.local
+.env.*.local
+.eslintcache
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+# .vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

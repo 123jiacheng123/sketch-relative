@@ -16,6 +16,7 @@ ImgStore.set = function (key, value) {
  * @returns {*}
  */
 ImgStore.get = function (key) {
+  debugger
   return ImgStore.data[key];
 };
 /**

@@ -1,803 +1,991 @@
 body {
                 overflow-x: hidden;
                 position: relative;
-                height: 3496pxpx;
+                height: 3982pxpx;
             }@function pxtorem($px){
     @return $px/182.13333333333333px * 1rem;
 }
 .rat {
     width: pxtorem(1366px);
-    height: pxtorem(3496px);
+    height: pxtorem(3982px);
     margin: 0 auto;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 1);
     .valley {
+        display: flex;
         width: pxtorem(1366px);
-        height: pxtorem(400px);
-        padding-top: pxtorem(0.1px);
-        background-image: url(https://p2.ssl.qhimg.com/t016c4c88e6bb07919f.png);
-        background-size: pxtorem(1366px) pxtorem(400px);
+        height: pxtorem(510px);
+        background-image: url(https://p2.ssl.qhimg.com/t0131d35a760314842c.png);
+        background-size: pxtorem(1366px) pxtorem(510px);
         .pence {
-            display: flex;
-            width: pxtorem(184px);
-            height: pxtorem(19px);
-            margin: pxtorem(20px) 0 0 pxtorem(979px);
-            .unconditional {
-                width: pxtorem(70px);
-                height: pxtorem(19px);
-                margin-left: pxtorem(0px);
-                font-family: MicrosoftYaHei;
-                font-size: pxtorem(14px);
-                line-height: pxtorem(20px);
-                color: rgba(255, 255, 255, 1);
-            }
-            .feather {
-                width: pxtorem(102px);
-                height: pxtorem(19px);
-                margin-left: pxtorem(12px);
-                font-family: MicrosoftYaHei;
-                font-size: pxtorem(14px);
-                line-height: pxtorem(20px);
-                color: rgba(255, 255, 255, 1);
-            }
+            width: pxtorem(60px);
+            height: pxtorem(60px);
+            margin: pxtorem(0px) 0 0 pxtorem(203px);
+        }
+        .unconditional {
+            width: pxtorem(723px);
+            height: pxtorem(42px);
+            margin: pxtorem(140px) 0 0 pxtorem(7px);
+            font-family: PingFangSC-Regular;
+            font-size: pxtorem(30px);
+            line-height: pxtorem(42px);
+            color: rgba(255, 255, 255, 1);
+        }
+        .feather {
+            width: pxtorem(723px);
+            height: pxtorem(65px);
+            margin: pxtorem(192px) 0 0 pxtorem(-723px);
+            font-family: PingFangSC-Medium;
+            font-size: pxtorem(46px);
+            font-weight: 500;
+            line-height: pxtorem(65px);
+            color: rgba(255, 255, 255, 1);
         }
         .zoo {
-            width: pxtorem(400px);
-            height: pxtorem(31px);
-            margin: pxtorem(25px) 0 0 pxtorem(283px);
-            font-family: MicrosoftYaHei;
-            font-size: pxtorem(24px);
-            line-height: pxtorem(33px);
-            color: rgba(255, 255, 255, 1);
+            width: pxtorem(723px);
+            height: pxtorem(56px);
+            margin: pxtorem(267px) 0 0 pxtorem(-723px);
+            font-family: PingFangSC-Regular;
+            font-size: pxtorem(20px);
+            line-height: pxtorem(28px);
+            color: rgba(255, 247, 215, 1);
         }
         .build {
-            width: pxtorem(32px);
-            height: pxtorem(2px);
-            margin: pxtorem(11px) 0 0 pxtorem(283px);
-            background-color: rgba(255, 255, 255, 1);
-        }
-        .field {
-            width: pxtorem(400px);
-            height: pxtorem(64px);
-            margin: pxtorem(20px) 0 0 pxtorem(283px);
-            font-family: MicrosoftYaHei-Bold;
-            font-size: pxtorem(48px);
-            font-weight: 700;
-            line-height: pxtorem(67px);
-            color: rgba(255, 255, 255, 1);
-        }
-        .nationality {
-            width: pxtorem(400px);
-            height: pxtorem(64px);
-            margin-left: pxtorem(283px);
-            font-family: MicrosoftYaHei-Bold;
-            font-size: pxtorem(48px);
-            font-weight: 700;
-            line-height: pxtorem(67px);
-            color: rgba(255, 255, 255, 1);
-        }
-        .salad {
-            width: pxtorem(164px);
-            height: pxtorem(44px);
+            width: pxtorem(180px);
+            height: pxtorem(50px);
             padding-top: pxtorem(0.1px);
-            margin: pxtorem(36px) 0 0 pxtorem(283px);
-            background-color: rgba(232, 52, 53, 1);
-            border-radius: pxtorem(8px);
-            .ferry {
-                width: pxtorem(144px);
-                height: pxtorem(24px);
-                margin: pxtorem(9px) 0 0 pxtorem(10px);
-                font-family: MicrosoftYaHei;
+            margin: pxtorem(360px) 0 0 pxtorem(-723px);
+            background-color: rgba(253, 224, 93, 1);
+            .field {
+                width: pxtorem(100px);
+                height: pxtorem(25px);
+                margin: pxtorem(13px) 0 0 pxtorem(40px);
+                font-family: PingFangSC-Regular;
                 font-size: pxtorem(18px);
                 line-height: pxtorem(25px);
-                color: rgba(255, 255, 255, 1);
-                text-align: center;
-            }
-        }
-    }
-    .building {
-        width: pxtorem(1366px);
-        height: pxtorem(716px);
-        padding-top: pxtorem(0.1px);
-        background-color: rgba(255, 255, 255, 1);
-        .limit {
-            width: pxtorem(155px);
-            height: pxtorem(42px);
-            margin: pxtorem(80px) 0 0 pxtorem(606px);
-            font-family: MicrosoftYaHei;
-            font-size: pxtorem(32px);
-            line-height: pxtorem(45px);
-            color: rgba(34, 34, 34, 1);
-            .stewardess {
-                width: pxtorem(155px);
-                height: pxtorem(42px);
-                font-family: MicrosoftYaHei;
-                font-size: pxtorem(32px);
-                line-height: pxtorem(45px);
                 color: rgba(34, 34, 34, 1);
-            }
-        }
-        .water {
-            display: flex;
-            width: pxtorem(960px);
-            height: pxtorem(221px);
-            margin: pxtorem(48px) 0 0 pxtorem(203px);
-            justify-content: space-between;
-            .manage {
-                width: pxtorem(304px);
-                height: pxtorem(221px);
-                background-color: rgba(255, 255, 255, 1);
-                border-radius: pxtorem(8px);
-                box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(12px) pxtorem(0px) rgba(0, 0, 0, 0.08);
-                .path {
-                    width: pxtorem(304px);
-                    height: pxtorem(163px);
-                    background-color: rgba(216, 216, 216, 1);
-                    .example {
-                        width: pxtorem(304px);
-                        height: pxtorem(163px);
-                    }
-                }
-                .purple {
-                    width: pxtorem(304px);
-                    height: pxtorem(1px);
-                    background-color: rgba(229, 229, 229, 1);
-                }
-                .valid {
-                    display: flex;
-                    width: pxtorem(272px);
-                    height: pxtorem(25px);
-                    margin: pxtorem(16px) 0 0 pxtorem(16px);
-                    .hurry {
-                        width: pxtorem(220px);
-                        height: pxtorem(25px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                    .argue {
-                        width: pxtorem(25px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(27px);
-                    }
-                }
-            }
-            .accommodation {
-                width: pxtorem(304px);
-                height: pxtorem(221px);
-                background-color: rgba(255, 255, 255, 1);
-                border-radius: pxtorem(8px);
-                box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(12px) pxtorem(0px) rgba(0, 0, 0, 0.08);
-                .mixture {
-                    width: pxtorem(304px);
-                    height: pxtorem(164px);
-                    padding-top: pxtorem(0.1px);
-                    background-image: url(https://p3.ssl.qhimg.com/t019081faa91e568b5c.png);
-                    background-size: pxtorem(304px) pxtorem(164px);
-                    .time {
-                        width: pxtorem(304px);
-                        height: pxtorem(1px);
-                        margin-top: pxtorem(163px);
-                        background-color: rgba(229, 229, 229, 1);
-                    }
-                }
-                .picnic {
-                    display: flex;
-                    width: pxtorem(272px);
-                    height: pxtorem(25px);
-                    margin: pxtorem(16px) 0 0 pxtorem(16px);
-                    .consensus {
-                        width: pxtorem(220px);
-                        height: pxtorem(25px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                    .smoke {
-                        width: pxtorem(25px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(27px);
-                    }
-                }
-            }
-            .protection {
-                width: pxtorem(304px);
-                height: pxtorem(221px);
-                background-color: rgba(255, 255, 255, 1);
-                border-radius: pxtorem(8px);
-                box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(12px) pxtorem(0px) rgba(0, 0, 0, 0.08);
-                .conscience {
-                    width: pxtorem(304px);
-                    height: pxtorem(164px);
-                    padding-top: pxtorem(0.1px);
-                    background-image: url(https://p5.ssl.qhimg.com/t015f54ea855e888921.png);
-                    background-size: pxtorem(304px) pxtorem(164px);
-                    .sense {
-                        width: pxtorem(304px);
-                        height: pxtorem(1px);
-                        margin-top: pxtorem(163px);
-                        background-color: rgba(229, 229, 229, 1);
-                    }
-                }
-                .owe {
-                    display: flex;
-                    width: pxtorem(272px);
-                    height: pxtorem(25px);
-                    margin: pxtorem(16px) 0 0 pxtorem(16px);
-                    .chant {
-                        width: pxtorem(220px);
-                        height: pxtorem(25px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                    .term {
-                        width: pxtorem(25px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(27px);
-                    }
-                }
-            }
-        }
-        .urban {
-            display: flex;
-            width: pxtorem(960px);
-            height: pxtorem(221px);
-            margin: pxtorem(24px) 0 0 pxtorem(203px);
-            justify-content: space-between;
-            .considerate {
-                width: pxtorem(304px);
-                height: pxtorem(221px);
-                background-color: rgba(255, 255, 255, 1);
-                border-radius: pxtorem(8px);
-                box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(12px) pxtorem(0px) rgba(0, 0, 0, 0.08);
-                .afraid {
-                    width: pxtorem(304px);
-                    height: pxtorem(164px);
-                    padding-top: pxtorem(0.1px);
-                    background-image: url(https://p1.ssl.qhimg.com/t016f4d788435d41ec5.png);
-                    background-size: pxtorem(304px) pxtorem(164px);
-                    .bandage {
-                        width: pxtorem(304px);
-                        height: pxtorem(1px);
-                        margin-top: pxtorem(163px);
-                        background-color: rgba(229, 229, 229, 1);
-                    }
-                }
-                .table {
-                    display: flex;
-                    width: pxtorem(272px);
-                    height: pxtorem(25px);
-                    margin: pxtorem(16px) 0 0 pxtorem(16px);
-                    .tennis {
-                        width: pxtorem(220px);
-                        height: pxtorem(25px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                    .candidate {
-                        width: pxtorem(25px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(27px);
-                    }
-                }
-            }
-            .combine {
-                width: pxtorem(304px);
-                height: pxtorem(221px);
-                background-color: rgba(255, 255, 255, 1);
-                border-radius: pxtorem(8px);
-                box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(12px) pxtorem(0px) rgba(0, 0, 0, 0.08);
-                .hurricane {
-                    width: pxtorem(304px);
-                    height: pxtorem(164px);
-                    padding-top: pxtorem(0.1px);
-                    background-image: url(https://p1.ssl.qhimg.com/t01661f3231b23748be.png);
-                    background-size: pxtorem(304px) pxtorem(164px);
-                    .independent {
-                        width: pxtorem(304px);
-                        height: pxtorem(1px);
-                        margin-top: pxtorem(163px);
-                        background-color: rgba(229, 229, 229, 1);
-                    }
-                }
-                .cancer {
-                    display: flex;
-                    width: pxtorem(272px);
-                    height: pxtorem(25px);
-                    margin: pxtorem(16px) 0 0 pxtorem(16px);
-                    .choose {
-                        width: pxtorem(220px);
-                        height: pxtorem(25px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                    .town {
-                        width: pxtorem(25px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(27px);
-                    }
-                }
-            }
-            .desire {
-                width: pxtorem(304px);
-                height: pxtorem(221px);
-                background-color: rgba(255, 255, 255, 1);
-                border-radius: pxtorem(8px);
-                box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(12px) pxtorem(0px) rgba(0, 0, 0, 0.08);
-                .visual {
-                    width: pxtorem(304px);
-                    height: pxtorem(164px);
-                    padding-top: pxtorem(0.1px);
-                    background-image: url(https://p4.ssl.qhimg.com/t01b35e6c3832db657c.png);
-                    background-size: pxtorem(304px) pxtorem(164px);
-                    .life {
-                        width: pxtorem(304px);
-                        height: pxtorem(1px);
-                        margin-top: pxtorem(163px);
-                        background-color: rgba(229, 229, 229, 1);
-                    }
-                }
-                .submit {
-                    display: flex;
-                    width: pxtorem(272px);
-                    height: pxtorem(25px);
-                    margin: pxtorem(16px) 0 0 pxtorem(16px);
-                    .physics {
-                        width: pxtorem(220px);
-                        height: pxtorem(25px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                    .meaning {
-                        width: pxtorem(25px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(27px);
-                    }
-                }
-            }
-        }
-    }
-    .country {
-        width: pxtorem(155px);
-        height: pxtorem(42px);
-        margin: pxtorem(20px) 0 0 pxtorem(203px);
-        font-family: MicrosoftYaHei;
-        font-size: pxtorem(32px);
-        line-height: pxtorem(45px);
-        color: rgba(34, 34, 34, 1);
-    }
-    .half {
-        width: pxtorem(1366px);
-        height: pxtorem(240px);
-        padding-top: pxtorem(0.1px);
-        margin-top: pxtorem(48px);
-        background-image: url(https://p4.ssl.qhimg.com/t01053fa26b320c4fdb.png);
-        background-size: pxtorem(1366px) pxtorem(240px);
-        .joy {
-            width: pxtorem(344px);
-            height: pxtorem(380px);
-            margin: pxtorem(-90px) 0 0 pxtorem(819px);
-            background-color: rgba(255, 255, 255, 1);
-            box-shadow: pxtorem(0px) pxtorem(0px) pxtorem(16px) pxtorem(0px) rgba(0, 0, 0, 0.2);
-            .adult {
-                width: pxtorem(344px);
-                height: pxtorem(60px);
-                padding-top: pxtorem(0.1px);
-                background-color: rgba(64, 77, 118, 1);
-                .servant {
-                    width: pxtorem(284px);
-                    height: pxtorem(28px);
-                    margin: pxtorem(16px) 0 0 pxtorem(30px);
-                    font-family: PingFangSC-Regular;
-                    font-size: pxtorem(20px);
-                    line-height: pxtorem(28px);
-                    color: rgba(255, 255, 255, 1);
-                    text-align: center;
-                }
-            }
-        }
-        .care {
-            width: pxtorem(148px);
-            height: pxtorem(144px);
-            padding-top: pxtorem(0.1px);
-            margin: pxtorem(-242px) 0 0 pxtorem(203px);
-            .search {
-                width: pxtorem(1px);
-                height: pxtorem(96px);
-                margin: pxtorem(24px) 0 0 pxtorem(147px);
-                background-color: rgba(255, 255, 255, 0.2);
-            }
-            .same {
-                width: pxtorem(116px);
-                height: pxtorem(84px);
-                margin: pxtorem(-90px) 0 0 pxtorem(16px);
-                .furniture {
-                    width: pxtorem(40px);
-                    height: pxtorem(40px);
-                    margin-left: pxtorem(38px);
-                }
-                .agree {
-                    width: pxtorem(116px);
-                    height: pxtorem(24px);
-                    margin-top: pxtorem(20px);
-                    font-family: MicrosoftYaHei;
-                    font-size: pxtorem(18px);
-                    line-height: pxtorem(25px);
-                    color: rgba(255, 255, 255, 1);
-                    text-align: center;
-                }
-            }
-        }
-        .heart {
-            width: pxtorem(148px);
-            height: pxtorem(144px);
-            padding-top: pxtorem(0.1px);
-            margin: pxtorem(-144px) 0 0 pxtorem(351px);
-            .unemployment {
-                width: pxtorem(1px);
-                height: pxtorem(96px);
-                margin: pxtorem(24px) 0 0 pxtorem(147px);
-                background-color: rgba(255, 255, 255, 0.2);
-            }
-            .nearly {
-                width: pxtorem(116px);
-                height: pxtorem(84px);
-                margin: pxtorem(-90px) 0 0 pxtorem(16px);
-                .bond {
-                    width: pxtorem(40px);
-                    height: pxtorem(40px);
-                    margin-left: pxtorem(38px);
-                }
-                .master {
-                    width: pxtorem(116px);
-                    height: pxtorem(24px);
-                    margin-top: pxtorem(20px);
-                    font-family: MicrosoftYaHei;
-                    font-size: pxtorem(18px);
-                    line-height: pxtorem(25px);
-                    color: rgba(255, 255, 255, 1);
-                    text-align: center;
-                }
-            }
-        }
-        .rise {
-            width: pxtorem(148px);
-            height: pxtorem(144px);
-            padding-top: pxtorem(0.1px);
-            margin: pxtorem(-144px) 0 0 pxtorem(499px);
-            .punish {
-                width: pxtorem(1px);
-                height: pxtorem(96px);
-                margin: pxtorem(24px) 0 0 pxtorem(147px);
-                background-color: rgba(255, 255, 255, 0.2);
-            }
-            .monument {
-                width: pxtorem(116px);
-                height: pxtorem(84px);
-                margin: pxtorem(-90px) 0 0 pxtorem(16px);
-                .stick {
-                    width: pxtorem(40px);
-                    height: pxtorem(40px);
-                    margin-left: pxtorem(38px);
-                }
-                .tax {
-                    width: pxtorem(116px);
-                    height: pxtorem(24px);
-                    margin-top: pxtorem(20px);
-                    font-family: MicrosoftYaHei;
-                    font-size: pxtorem(18px);
-                    line-height: pxtorem(25px);
-                    color: rgba(255, 255, 255, 1);
-                    text-align: center;
-                }
-            }
-        }
-        .personnel {
-            width: pxtorem(148px);
-            height: pxtorem(144px);
-            padding-top: pxtorem(0.1px);
-            margin: pxtorem(-144px) 0 0 pxtorem(647px);
-            .fact {
-                width: pxtorem(40px);
-                height: pxtorem(40px);
-                margin: pxtorem(30px) 0 0 pxtorem(54px);
-            }
-            .therefore {
-                width: pxtorem(116px);
-                height: pxtorem(24px);
-                margin: pxtorem(20px) 0 0 pxtorem(16px);
-                font-family: MicrosoftYaHei;
-                font-size: pxtorem(18px);
-                line-height: pxtorem(25px);
-                color: rgba(255, 255, 255, 1);
                 text-align: center;
             }
         }
     }
-    .ox {
+    .nationality {
         width: pxtorem(1366px);
-        height: pxtorem(952px);
+        height: pxtorem(509px);
         padding-top: pxtorem(0.1px);
-        margin-top: pxtorem(70px);
         background-color: rgba(255, 255, 255, 1);
-        .ocean {
-            width: pxtorem(155px);
+        .salad {
+            display: flex;
             height: pxtorem(42px);
-            margin: pxtorem(80px) 0 0 pxtorem(606px);
-            font-family: MicrosoftYaHei;
-            font-size: pxtorem(32px);
-            line-height: pxtorem(45px);
-            color: rgba(34, 34, 34, 1);
-        }
-        .eagle {
-            display: flex;
-            width: pxtorem(959px);
-            height: pxtorem(312px);
-            margin: pxtorem(46px) 0 0 pxtorem(204px);
-            background-color: rgba(255, 255, 255, 1);
-            justify-content: space-between;
-            .cloud {
-                width: pxtorem(464px);
-                height: pxtorem(312px);
-                margin-left: pxtorem(-1px);
-            }
-            .fibre {
-                width: pxtorem(472px);
-                height: pxtorem(312px);
-                margin-right: pxtorem(0px);
-                .fiber {
-                    display: flex;
-                    width: pxtorem(344px);
-                    height: pxtorem(34px);
-                    align-items: center;
-                    .bingo {
-                        width: pxtorem(34px);
-                        height: pxtorem(34px);
-                        padding-top: pxtorem(0.1px);
-                        margin-left: pxtorem(0px);
-                        background-color: rgba(232, 52, 53, 1);
-                        .fortunate {
-                            width: pxtorem(20px);
-                            height: pxtorem(20px);
-                            margin: pxtorem(7px) 0 0 pxtorem(7px);
-                            font-family: PingFangSC-Semibold;
-                            font-size: pxtorem(14px);
-                            font-weight: 700;
-                            line-height: pxtorem(20px);
-                            color: rgba(255, 255, 255, 1);
-                            text-align: center;
-                        }
-                    }
-                    .mommy {
-                        width: pxtorem(300px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(10px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                }
-                .wage {
-                    width: pxtorem(472px);
-                    height: pxtorem(40px);
-                    margin-top: pxtorem(20px);
-                    font-family: PingFangSC-Regular;
-                    font-size: pxtorem(14px);
-                    line-height: pxtorem(20px);
-                    color: rgba(102, 102, 102, 1);
-                }
-                .along {
-                    width: pxtorem(472px);
-                    height: pxtorem(80px);
-                    font-family: PingFangSC-Regular;
-                    font-size: pxtorem(14px);
-                    line-height: pxtorem(20px);
-                    color: rgba(102, 102, 102, 1);
-                }
-                .surplus {
-                    display: flex;
-                    width: pxtorem(400px);
-                    height: pxtorem(105px);
-                    margin-top: pxtorem(33px);
-                    justify-content: space-between;
-                    .add {
-                        width: pxtorem(188px);
-                        height: pxtorem(105px);
-                    }
-                    .outdoors {
-                        width: pxtorem(188px);
-                        height: pxtorem(105px);
-                    }
-                }
-            }
-        }
-        .paper {
-            display: flex;
-            height: pxtorem(16px);
-            margin-top: pxtorem(32px);
+            margin-top: pxtorem(70px);
             justify-content: center;
             align-items: center;
-            .fetch {
-                width: pxtorem(458px);
-                height: pxtorem(1px);
+            .ferry {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
                 margin-left: pxtorem(0px);
-                background-color: rgba(235, 235, 235, 1);
+                background-color: rgba(212, 173, 2, 1);
             }
-            .church {
-                width: pxtorem(16px);
-                height: pxtorem(16px);
-                margin-left: pxtorem(14px);
-                background-color: rgba(235, 235, 235, 1);
+            .building {
+                width: pxtorem(120px);
+                height: pxtorem(42px);
+                margin-left: pxtorem(15px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(30px);
+                font-weight: 500;
+                line-height: pxtorem(42px);
+                color: rgba(144, 118, 1, 1);
+                text-align: center;
             }
-            .edition {
-                width: pxtorem(458px);
-                height: pxtorem(1px);
-                margin-left: pxtorem(14px);
-                background-color: rgba(235, 235, 235, 1);
+            .limit {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(16px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+        }
+        .stewardess {
+            display: flex;
+            width: pxtorem(960px);
+            height: pxtorem(277px);
+            margin: pxtorem(50px) 0 0 pxtorem(203px);
+            justify-content: space-between;
+            .water {
+                width: pxtorem(222px);
+                height: pxtorem(277px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .manage {
+                    width: pxtorem(156px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(26px) 0 0 pxtorem(33px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+                .path {
+                    width: pxtorem(222px);
+                    height: pxtorem(200px);
+                    margin-top: pxtorem(26px);
+                }
+            }
+            .example {
+                width: pxtorem(222px);
+                height: pxtorem(277px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .purple {
+                    width: pxtorem(156px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(26px) 0 0 pxtorem(33px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+                .valid {
+                    width: pxtorem(222px);
+                    height: pxtorem(200px);
+                    margin-top: pxtorem(26px);
+                }
+            }
+            .hurry {
+                width: pxtorem(222px);
+                height: pxtorem(277px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .argue {
+                    width: pxtorem(156px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(26px) 0 0 pxtorem(33px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+                .accommodation {
+                    width: pxtorem(222px);
+                    height: pxtorem(200px);
+                    margin-top: pxtorem(26px);
+                }
+            }
+            .mixture {
+                width: pxtorem(222px);
+                height: pxtorem(277px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .time {
+                    width: pxtorem(156px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(26px) 0 0 pxtorem(33px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+                .picnic {
+                    width: pxtorem(222px);
+                    height: pxtorem(200px);
+                    margin-top: pxtorem(26px);
+                }
+            }
+        }
+    }
+    .consensus {
+        width: pxtorem(1366px);
+        height: pxtorem(722px);
+        padding-top: pxtorem(0.1px);
+        background-color: rgba(255, 247, 215, 1);
+        .smoke {
+            display: flex;
+            height: pxtorem(42px);
+            margin-top: pxtorem(70px);
+            justify-content: center;
+            align-items: center;
+            .protection {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(0px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+            .conscience {
+                width: pxtorem(120px);
+                height: pxtorem(42px);
+                margin-left: pxtorem(15px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(30px);
+                font-weight: 500;
+                line-height: pxtorem(42px);
+                color: rgba(144, 118, 1, 1);
+                text-align: center;
+            }
+            .sense {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(15px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+        }
+        .owe {
+            display: flex;
+            width: pxtorem(940px);
+            height: pxtorem(200px);
+            margin: pxtorem(50px) 0 0 pxtorem(213px);
+            justify-content: space-between;
+            .chant {
+                width: pxtorem(280px);
+                height: pxtorem(200px);
+                padding-top: pxtorem(0.1px);
+                background-image: url(https://p2.ssl.qhimg.com/t01559e88fa44122e5d.png);
+                background-size: pxtorem(280px) pxtorem(200px);
+                .term {
+                    width: pxtorem(188px);
+                    height: pxtorem(40px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(180px) 0 0 pxtorem(46px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .urban {
+                        width: pxtorem(160px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(9px) 0 0 pxtorem(14px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(16px);
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+            .considerate {
+                width: pxtorem(280px);
+                height: pxtorem(200px);
+                padding-top: pxtorem(0.1px);
+                background-image: url(https://p3.ssl.qhimg.com/t012c58a943c4cd43cf.png);
+                background-size: pxtorem(280px) pxtorem(200px);
+                .afraid {
+                    width: pxtorem(188px);
+                    height: pxtorem(40px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(180px) 0 0 pxtorem(46px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .bandage {
+                        width: pxtorem(160px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(9px) 0 0 pxtorem(14px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(16px);
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+            .table {
+                width: pxtorem(280px);
+                height: pxtorem(200px);
+                padding-top: pxtorem(0.1px);
+                background-image: url(https://p4.ssl.qhimg.com/t01c605b602d5868e91.png);
+                background-size: pxtorem(280px) pxtorem(200px);
+                .tennis {
+                    width: pxtorem(188px);
+                    height: pxtorem(40px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(180px) 0 0 pxtorem(46px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .candidate {
+                        width: pxtorem(160px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(9px) 0 0 pxtorem(14px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(16px);
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .combine {
+            display: flex;
+            width: pxtorem(940px);
+            height: pxtorem(200px);
+            margin: pxtorem(70px) 0 0 pxtorem(213px);
+            justify-content: space-between;
+            .hurricane {
+                width: pxtorem(280px);
+                height: pxtorem(200px);
+                padding-top: pxtorem(0.1px);
+                background-image: url(https://p5.ssl.qhimg.com/t010e90dfa4079f12fc.png);
+                background-size: pxtorem(280px) pxtorem(200px);
+                .independent {
+                    width: pxtorem(188px);
+                    height: pxtorem(40px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(180px) 0 0 pxtorem(46px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .cancer {
+                        width: pxtorem(160px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(9px) 0 0 pxtorem(14px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(16px);
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+            .choose {
+                width: pxtorem(280px);
+                height: pxtorem(200px);
+                padding-top: pxtorem(0.1px);
+                background-image: url(https://p5.ssl.qhimg.com/t01a8649323c5c950e7.png);
+                background-size: pxtorem(280px) pxtorem(200px);
+                .town {
+                    width: pxtorem(188px);
+                    height: pxtorem(40px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(180px) 0 0 pxtorem(46px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .desire {
+                        width: pxtorem(160px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(9px) 0 0 pxtorem(14px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(16px);
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+            .visual {
+                width: pxtorem(280px);
+                height: pxtorem(200px);
+                padding-top: pxtorem(0.1px);
+                background-image: url(https://p5.ssl.qhimg.com/t01c1f245e55d3d7d30.png);
+                background-size: pxtorem(280px) pxtorem(200px);
+                .life {
+                    width: pxtorem(188px);
+                    height: pxtorem(40px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(180px) 0 0 pxtorem(46px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .submit {
+                        width: pxtorem(160px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(9px) 0 0 pxtorem(14px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(16px);
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .physics {
+        width: pxtorem(1366px);
+        height: pxtorem(505px);
+        padding-top: pxtorem(0.1px);
+        background-color: rgba(255, 255, 255, 1);
+        .meaning {
+            display: flex;
+            height: pxtorem(42px);
+            margin-top: pxtorem(70px);
+            justify-content: center;
+            align-items: center;
+            .country {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(0px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+            .half {
+                width: pxtorem(120px);
+                height: pxtorem(42px);
+                margin-left: pxtorem(15px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(30px);
+                font-weight: 500;
+                line-height: pxtorem(42px);
+                color: rgba(144, 118, 1, 1);
+                text-align: center;
+            }
+            .joy {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(15px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+        }
+        .adult {
+            display: flex;
+            height: pxtorem(222px);
+            margin-top: pxtorem(50px);
+            justify-content: center;
+            .servant {
+                width: pxtorem(222px);
+                height: pxtorem(222px);
+                margin-left: pxtorem(0px);
+                background-color: rgba(216, 216, 216, 1);
+                border-radius: pxtorem(111px);
+                .care {
+                    width: pxtorem(222px);
+                    height: pxtorem(222px);
+                }
+            }
+            .search {
+                width: pxtorem(222px);
+                height: pxtorem(222px);
+                margin-left: pxtorem(24px);
+                background-color: rgba(216, 216, 216, 1);
+                border-radius: pxtorem(111px);
+                .same {
+                    width: pxtorem(222px);
+                    height: pxtorem(222px);
+                }
+            }
+            .furniture {
+                width: pxtorem(224px);
+                height: pxtorem(222px);
+                margin-left: pxtorem(24px);
+                background-color: rgba(216, 216, 216, 1);
+                border-radius: pxtorem(111px);
+                .agree {
+                    width: pxtorem(222px);
+                    height: pxtorem(222px);
+                }
+            }
+            .heart {
+                width: pxtorem(222px);
+                height: pxtorem(222px);
+                margin-left: pxtorem(22px);
+                background-color: rgba(216, 216, 216, 1);
+                border-radius: pxtorem(111px);
+                .unemployment {
+                    width: pxtorem(222px);
+                    height: pxtorem(222px);
+                }
+            }
+        }
+        .nearly {
+            display: flex;
+            width: pxtorem(938px);
+            height: pxtorem(36px);
+            margin: pxtorem(15px) 0 0 pxtorem(214px);
+            justify-content: space-between;
+            .bond {
+                width: pxtorem(200px);
+                height: pxtorem(35px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .master {
+                    width: pxtorem(160px);
+                    height: pxtorem(22px);
+                    margin: pxtorem(6px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(16px);
+                    line-height: pxtorem(22px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+            }
+            .rise {
+                width: pxtorem(200px);
+                height: pxtorem(35px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .punish {
+                    width: pxtorem(160px);
+                    height: pxtorem(22px);
+                    margin: pxtorem(6px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(16px);
+                    line-height: pxtorem(22px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+            }
+            .monument {
+                width: pxtorem(200px);
+                height: pxtorem(35px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .stick {
+                    width: pxtorem(160px);
+                    height: pxtorem(22px);
+                    margin: pxtorem(6px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(16px);
+                    line-height: pxtorem(22px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+            }
+            .tax {
+                width: pxtorem(200px);
+                height: pxtorem(35px);
+                padding-top: pxtorem(0.1px);
+                background-color: rgba(253, 224, 93, 1);
+                .personnel {
+                    width: pxtorem(160px);
+                    height: pxtorem(22px);
+                    margin: pxtorem(6px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(16px);
+                    line-height: pxtorem(22px);
+                    color: rgba(144, 118, 1, 1);
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .fact {
+        width: pxtorem(1366px);
+        height: pxtorem(661px);
+        padding-top: pxtorem(0.1px);
+        background-color: rgba(255, 247, 215, 1);
+        .therefore {
+            display: flex;
+            height: pxtorem(42px);
+            margin-top: pxtorem(70px);
+            justify-content: center;
+            align-items: center;
+            .ox {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(0px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+            .ocean {
+                width: pxtorem(120px);
+                height: pxtorem(42px);
+                margin-left: pxtorem(15px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(30px);
+                font-weight: 500;
+                line-height: pxtorem(42px);
+                color: rgba(144, 118, 1, 1);
+                text-align: center;
+            }
+            .eagle {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(15px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+        }
+        .cloud {
+            display: flex;
+            width: pxtorem(960px);
+            height: pxtorem(278px);
+            margin: pxtorem(50px) 0 0 pxtorem(203px);
+            justify-content: space-between;
+            .fibre {
+                width: pxtorem(468px);
+                height: pxtorem(278px);
+                margin-left: pxtorem(0px);
+            }
+            .fiber {
+                width: pxtorem(468px);
+                height: pxtorem(278px);
+                margin-right: pxtorem(0px);
+                .bingo {
+                    width: pxtorem(468px);
+                    height: pxtorem(127px);
+                    padding-top: pxtorem(0.1px);
+                    background-color: rgba(255, 255, 255, 1);
+                    .fortunate {
+                        width: pxtorem(428px);
+                        height: pxtorem(25px);
+                        margin: pxtorem(18px) 0 0 pxtorem(20px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(18px);
+                        font-weight: 500;
+                        line-height: pxtorem(25px);
+                        color: rgba(144, 118, 1, 1);
+                    }
+                    .mommy {
+                        width: pxtorem(428px);
+                        height: pxtorem(40px);
+                        margin: pxtorem(6px) 0 0 pxtorem(20px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(144, 118, 1, 1);
+                    }
+                    .wage {
+                        display: flex;
+                        width: pxtorem(428px);
+                        height: pxtorem(20px);
+                        margin-left: pxtorem(20px);
+                        align-items: center;
+                        .along {
+                            width: pxtorem(100px);
+                            height: pxtorem(17px);
+                            margin-left: pxtorem(0px);
+                            font-family: PingFangSC-Regular;
+                            font-size: pxtorem(12px);
+                            line-height: pxtorem(17px);
+                            color: rgba(0, 0, 0, 0.4);
+                        }
+                        .surplus {
+                            width: pxtorem(70px);
+                            height: pxtorem(20px);
+                            margin-left: pxtorem(258px);
+                            font-family: PingFangSC-Regular;
+                            font-size: pxtorem(14px);
+                            line-height: pxtorem(20px);
+                            color: rgba(95, 77, 0, 1);
+                        }
+                    }
+                }
+                .add {
+                    width: pxtorem(468px);
+                    height: pxtorem(127px);
+                    padding-top: pxtorem(0.1px);
+                    margin-top: pxtorem(24px);
+                    background-color: rgba(255, 255, 255, 1);
+                    .outdoors {
+                        width: pxtorem(428px);
+                        height: pxtorem(25px);
+                        margin: pxtorem(18px) 0 0 pxtorem(20px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(18px);
+                        font-weight: 500;
+                        line-height: pxtorem(25px);
+                        color: rgba(144, 118, 1, 1);
+                    }
+                    .paper {
+                        width: pxtorem(428px);
+                        height: pxtorem(40px);
+                        margin: pxtorem(6px) 0 0 pxtorem(20px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(144, 118, 1, 1);
+                    }
+                    .fetch {
+                        display: flex;
+                        width: pxtorem(428px);
+                        height: pxtorem(20px);
+                        margin-left: pxtorem(20px);
+                        align-items: center;
+                        .church {
+                            width: pxtorem(100px);
+                            height: pxtorem(17px);
+                            margin-left: pxtorem(0px);
+                            font-family: PingFangSC-Regular;
+                            font-size: pxtorem(12px);
+                            line-height: pxtorem(17px);
+                            color: rgba(0, 0, 0, 0.4);
+                        }
+                        .edition {
+                            width: pxtorem(70px);
+                            height: pxtorem(20px);
+                            margin-left: pxtorem(258px);
+                            font-family: PingFangSC-Regular;
+                            font-size: pxtorem(14px);
+                            line-height: pxtorem(20px);
+                            color: rgba(95, 77, 0, 1);
+                        }
+                    }
+                }
             }
         }
         .weather {
             display: flex;
-            width: pxtorem(959px);
-            height: pxtorem(312px);
-            margin: pxtorem(32px) 0 0 pxtorem(204px);
-            background-color: rgba(255, 255, 255, 1);
+            width: pxtorem(960px);
+            height: pxtorem(127px);
+            margin: pxtorem(24px) 0 0 pxtorem(203px);
             justify-content: space-between;
             .opera {
-                width: pxtorem(472px);
-                height: pxtorem(312px);
-                margin-left: pxtorem(-1px);
-                .dot {
-                    display: flex;
-                    width: pxtorem(344px);
-                    height: pxtorem(34px);
-                    align-items: center;
-                    .service {
-                        width: pxtorem(34px);
-                        height: pxtorem(34px);
-                        padding-top: pxtorem(0.1px);
-                        margin-left: pxtorem(0px);
-                        background-color: rgba(232, 52, 53, 1);
-                        .disease {
-                            width: pxtorem(20px);
-                            height: pxtorem(20px);
-                            margin: pxtorem(7px) 0 0 pxtorem(7px);
-                            font-family: PingFangSC-Semibold;
-                            font-size: pxtorem(14px);
-                            font-weight: 700;
-                            line-height: pxtorem(20px);
-                            color: rgba(255, 255, 255, 1);
-                            text-align: center;
-                        }
-                    }
-                    .symphony {
-                        width: pxtorem(300px);
-                        height: pxtorem(25px);
-                        margin-left: pxtorem(10px);
-                        font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
-                    }
-                }
-                .survival {
-                    width: pxtorem(472px);
-                    height: pxtorem(40px);
-                    margin-top: pxtorem(20px);
-                    font-family: PingFangSC-Regular;
-                    font-size: pxtorem(14px);
-                    line-height: pxtorem(20px);
-                    color: rgba(102, 102, 102, 1);
-                }
-                .thus {
-                    width: pxtorem(472px);
-                    height: pxtorem(60px);
-                    font-family: PingFangSC-Regular;
-                    font-size: pxtorem(14px);
-                    line-height: pxtorem(20px);
-                    color: rgba(102, 102, 102, 1);
-                }
-                .satisfy {
-                    display: flex;
-                    width: pxtorem(400px);
-                    height: pxtorem(105px);
-                    margin-top: pxtorem(53px);
-                    justify-content: space-between;
-                    .arise {
-                        width: pxtorem(188px);
-                        height: pxtorem(105px);
-                    }
-                    .sorry {
-                        width: pxtorem(188px);
-                        height: pxtorem(105px);
-                    }
-                }
-            }
-            .dinosaur {
-                width: pxtorem(464px);
-                height: pxtorem(312px);
-                margin-right: pxtorem(0px);
-            }
-        }
-    }
-    .properly {
-        width: pxtorem(1366px);
-        height: pxtorem(522px);
-        background-color: rgba(255, 255, 255, 1);
-        .story {
-            width: pxtorem(1366px);
-            height: pxtorem(324px);
-            padding-top: pxtorem(0.1px);
-            background-color: rgba(242, 242, 242, 1);
-            .appetite {
-                width: pxtorem(155px);
-                height: pxtorem(42px);
-                margin: pxtorem(80px) 0 0 pxtorem(606px);
-                font-family: MicrosoftYaHei;
-                font-size: pxtorem(32px);
-                line-height: pxtorem(45px);
-                color: rgba(34, 34, 34, 1);
-            }
-            .pronounce {
-                display: flex;
-                width: pxtorem(959px);
-                height: pxtorem(274px);
-                margin: pxtorem(46px) 0 0 pxtorem(204px);
+                width: pxtorem(468px);
+                height: pxtorem(127px);
+                padding-top: pxtorem(0.1px);
+                margin-left: pxtorem(0px);
                 background-color: rgba(255, 255, 255, 1);
-                align-items: center;
-                .socialist {
-                    width: pxtorem(464px);
-                    height: pxtorem(274px);
-                    margin-left: pxtorem(-1px);
+                .dot {
+                    width: pxtorem(428px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(18px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
                 }
-                .certain {
-                    height: pxtorem(226px);
-                    margin-left: pxtorem(24px);
-                    .pea {
-                        width: pxtorem(448px);
-                        height: pxtorem(25px);
+                .service {
+                    width: pxtorem(428px);
+                    height: pxtorem(40px);
+                    margin: pxtorem(6px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(144, 118, 1, 1);
+                }
+                .disease {
+                    display: flex;
+                    width: pxtorem(428px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(20px);
+                    align-items: center;
+                    .symphony {
+                        width: pxtorem(100px);
+                        height: pxtorem(17px);
+                        margin-left: pxtorem(0px);
                         font-family: PingFangSC-Regular;
-                        font-size: pxtorem(18px);
-                        line-height: pxtorem(25px);
-                        color: rgba(34, 34, 34, 1);
+                        font-size: pxtorem(12px);
+                        line-height: pxtorem(17px);
+                        color: rgba(0, 0, 0, 0.4);
                     }
-                    .bacterium {
-                        width: pxtorem(448px);
-                        height: pxtorem(180px);
-                        margin-top: pxtorem(21px);
+                    .survival {
+                        width: pxtorem(70px);
+                        height: pxtorem(20px);
+                        margin-left: pxtorem(258px);
                         font-family: PingFangSC-Regular;
                         font-size: pxtorem(14px);
                         line-height: pxtorem(20px);
-                        color: rgba(102, 102, 102, 1);
+                        color: rgba(95, 77, 0, 1);
+                    }
+                }
+            }
+            .thus {
+                width: pxtorem(468px);
+                height: pxtorem(127px);
+                padding-top: pxtorem(0.1px);
+                margin-right: pxtorem(0px);
+                background-color: rgba(255, 255, 255, 1);
+                .satisfy {
+                    width: pxtorem(428px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(18px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
+                }
+                .arise {
+                    width: pxtorem(428px);
+                    height: pxtorem(40px);
+                    margin: pxtorem(6px) 0 0 pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(144, 118, 1, 1);
+                }
+                .sorry {
+                    display: flex;
+                    width: pxtorem(428px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(20px);
+                    align-items: center;
+                    .dinosaur {
+                        width: pxtorem(100px);
+                        height: pxtorem(17px);
+                        margin-left: pxtorem(0px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(12px);
+                        line-height: pxtorem(17px);
+                        color: rgba(0, 0, 0, 0.4);
+                    }
+                    .properly {
+                        width: pxtorem(70px);
+                        height: pxtorem(20px);
+                        margin-left: pxtorem(258px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(95, 77, 0, 1);
                     }
                 }
             }
         }
     }
-    .contrary {
+    .story {
         width: pxtorem(1366px);
-        height: pxtorem(486px);
+        height: pxtorem(582px);
         padding-top: pxtorem(0.1px);
         background-color: rgba(255, 255, 255, 1);
-        .roof {
-            width: pxtorem(155px);
+        .appetite {
+            display: flex;
             height: pxtorem(42px);
-            margin: pxtorem(80px) 0 0 pxtorem(606px);
-            font-family: MicrosoftYaHei;
-            font-size: pxtorem(32px);
-            line-height: pxtorem(45px);
-            color: rgba(34, 34, 34, 1);
+            margin-top: pxtorem(70px);
+            justify-content: center;
+            align-items: center;
+            .pronounce {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(0px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+            .socialist {
+                width: pxtorem(120px);
+                height: pxtorem(42px);
+                margin-left: pxtorem(15px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(30px);
+                font-weight: 500;
+                line-height: pxtorem(42px);
+                color: rgba(144, 118, 1, 1);
+                text-align: center;
+            }
+            .certain {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(15px);
+                background-color: rgba(212, 173, 2, 1);
+            }
+        }
+        .pea {
+            display: flex;
+            width: pxtorem(960px);
+            height: pxtorem(350px);
+            margin: pxtorem(50px) 0 0 pxtorem(203px);
+            justify-content: space-between;
+            .bacterium {
+                width: pxtorem(463px);
+                height: pxtorem(312px);
+                margin: pxtorem(0px) 0 0 pxtorem(0px);
+                .contrary {
+                    width: pxtorem(312px);
+                    height: pxtorem(312px);
+                    background-color: rgba(216, 216, 216, 1);
+                    border-radius: pxtorem(156px);
+                    .roof {
+                        width: pxtorem(312px);
+                        height: pxtorem(312px);
+                        padding-top: pxtorem(0.1px);
+                        background-image: url(https://p2.ssl.qhimg.com/t0144e0997533a89ce9.png);
+                        background-size: pxtorem(312px) pxtorem(312px);
+                        .carve {
+                            width: pxtorem(95px);
+                            height: pxtorem(95px);
+                            margin: pxtorem(256px) 0 0 pxtorem(120px);
+                            background-color: rgba(216, 216, 216, 1);
+                            border-radius: pxtorem(48px);
+                            .essay {
+                                width: pxtorem(95px);
+                                height: pxtorem(95px);
+                            }
+                        }
+                    }
+                }
+                .reward {
+                    width: pxtorem(175px);
+                    height: pxtorem(175px);
+                    margin: pxtorem(-212px) 0 0 pxtorem(288px);
+                    background-color: rgba(216, 216, 216, 1);
+                    border-radius: pxtorem(88px);
+                    .convenience {
+                        width: pxtorem(175px);
+                        height: pxtorem(175px);
+                    }
+                }
+            }
+            .export {
+                width: pxtorem(463px);
+                height: pxtorem(350px);
+                padding-top: pxtorem(0.1px);
+                margin: pxtorem(0px) pxtorem(0px) 0 0;
+                background-color: rgba(255, 247, 215, 1);
+                .fit {
+                    width: pxtorem(200px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(30px) 0 0 pxtorem(30px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(18px);
+                    font-weight: 500;
+                    line-height: pxtorem(25px);
+                    color: rgba(144, 118, 1, 1);
+                }
+                .racial {
+                    width: pxtorem(403px);
+                    height: pxtorem(200px);
+                    margin: pxtorem(20px) 0 0 pxtorem(30px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(144, 118, 1, 1);
+                }
+                .herself {
+                    width: pxtorem(110px);
+                    height: pxtorem(34px);
+                    padding-top: pxtorem(0.1px);
+                    margin: pxtorem(18px) 0 0 pxtorem(177px);
+                    background-color: rgba(253, 224, 93, 1);
+                    .bid {
+                        width: pxtorem(80px);
+                        height: pxtorem(22px);
+                        margin: pxtorem(6px) 0 0 pxtorem(15px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(16px);
+                        font-weight: 500;
+                        line-height: pxtorem(22px);
+                        color: rgba(144, 118, 1, 1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .novelist {
+        width: pxtorem(1366px);
+        height: pxtorem(493px);
+        padding-top: pxtorem(0.1px);
+        background-image: url(https://p5.ssl.qhimg.com/t014c118d3130270abe.png);
+        background-size: pxtorem(1366px) pxtorem(493px);
+        .safety {
+            display: flex;
+            height: pxtorem(42px);
+            margin-top: pxtorem(70px);
+            justify-content: center;
+            align-items: center;
+            .off {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(0px);
+                background-color: rgba(255, 255, 255, 1);
+            }
+            .east {
+                width: pxtorem(240px);
+                height: pxtorem(42px);
+                margin-left: pxtorem(16px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(30px);
+                font-weight: 500;
+                line-height: pxtorem(42px);
+                color: rgba(255, 255, 255, 1);
+                text-align: center;
+            }
+            .misunderstand {
+                width: pxtorem(10px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(16px);
+                background-color: rgba(255, 255, 255, 1);
+            }
+        }
+        .razor {
+            width: pxtorem(163px);
+            height: pxtorem(20px);
+            margin: pxtorem(6px) 0 0 pxtorem(601px);
+            font-family: PingFangSC-Medium;
+            font-size: pxtorem(14px);
+            font-weight: 500;
+            line-height: pxtorem(20px);
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
         }
     }
 }

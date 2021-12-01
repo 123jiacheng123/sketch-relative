@@ -8,10 +8,20 @@ const ImgStore = require("../src/store/ImgStore");
 import { picassoArtboardCodeParse } from '../src'
 import { picassoCodeFile } from '../../picasso-code/src'
 
-const filePath = path.join(__dirname, './sketch/钢材金属材料02.sketch')
+const filePath = path.join(__dirname, './sketch/范安琪.sketch')
 const outputPath = path.join(__dirname, './output')
 ImgStore.set('absolutePath',outputPath)
 
+// async function removeDir(path:string) {
+//     try {
+//        const res = fse.removeSync(path)
+//        console.log('删除成功');
+       
+//     } catch (error) {
+        
+//     }
+// }
+// removeDir(outputPath)
 
 exec(
     `unzip -o ${filePath} -d ${outputPath};`,
@@ -31,7 +41,6 @@ exec(
                 fs.readFileSync(`${outputPath}/pages/` + f).toString()
             );
         });
-        let outResults = [];
         // 对每个页面进行处理解析
         for (const f of files) {
             let data = fileStore[f];
@@ -40,61 +49,6 @@ exec(
             const layers = [dealData]
             //1. web代码生成
             picassoCodeFile(layers, path.join(__dirname, './code'))
-            
-            // TODO:del
-            // fs.writeFileSync("./tmp/data.json", JSON.stringify(data));
-            // let result = await layerParser(data);
-
-            // fse.outputFileSync(
-            //     `${outputPath}/result.json`,
-            //     JSON.stringify(result)
-            // );
-            // outResults.push(result);
         }
-        // outResults.forEach((result) => {
-        //     if (result.type === "page") {
-        //         handleArtBoard(result, `page-${result.name}`, outputPath);
-        //     }
-        // });
-
-        // 输出模板页面 js 中的页面配置数据
-        // fse.outputFileSync(
-        //     `${outputPath}/html/index.js`,
-        //     (() => {
-        //         let r = "window.data = [];\n";
-        //         outPages.forEach((p) => {
-        //             r += `data.push({url:'${p.url}',title:'${p.name}',type:'folder'});\n`;
-        //         });
-        //         return r;
-        //     })()
-        // );
     }
 )
-
-
-/**
- * 创建mkdir文件夹用于存放  毕加索插件解析后的json
- */
-// const fileName2 = path.resolve(__dirname, './mkdir/test.json')
-// if (fs.existsSync(fileName2)) {
-//     // -- 同步删除文件
-//     fs.unlinkSync(fileName2, function(err) {
-//         if (err) return
-//     })
-//     fs.rmdir('./test/mkdir', function(err) {
-//         if (err) return
-//         console.log('删除目录成功')
-//       })
-// }
-
-// fs.mkdir('./test/mkdir', function(err) {
-//     if (err) return
-//     console.log('创建目录成功')
-//     fs.writeFile(fileName2, JSON.stringify(data), function (err) {
-//         if (err) {
-//             // 出错
-//             console.log(err.message)
-//             return
-//         }
-//   })
-// })

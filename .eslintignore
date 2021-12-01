@@ -1,9 +1,13 @@
 # npm
-/node_modules
+node_modules
 /output
 .npm
 npm-debug.log
 package-lock.json
+yarn-error.log
+.vscode
 
-test/code/
-dist/
+test/code/*
+test/output/*
+test/sketch/*
+dist/*

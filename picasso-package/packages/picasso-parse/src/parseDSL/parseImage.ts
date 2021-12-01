@@ -1,34 +1,30 @@
 import { SKLayer, Image } from '../types';
-const Jimp = require("jimp");
+// const Jimp = require("jimp");
 const path = require("path");
-const ImgStore = require("../store/ImgStore");
-
+// const ImgStore = require("../../../src/store/ImgStore.ts");
 /**
  * 切片(Slice) => 图片
  * @param image Picasso-DSL图层
  * @param layer Sketch图层
  */
 
-const qcdn = require("@q/qcdn");
-
-const loader = (filePaths) => {
-    // filePaths:文件路径/文件路径数组
-    return qcdn.upload(filePaths, {
-        image: {
-            https: true,
-        },
-    });
-};
-
 const upload = async (file) => {
-    let res = await loader(file);
-    return res[file];
+    // @ts-ignore
+    if (global.loader) {
+        // @ts-ignore
+        let loader = global.loader
+        let res = await loader(file);
+        return res[file];
+    }
+    return null
 };
 
 const bitmapParser = async ({ x, y, w, h, resized_w, resized_h, image }) => {
-    let outputPath = ImgStore.get("absolutePath");
-    let file = path.join(outputPath, image);
-    let img = await Jimp.read(file);
+    // let outputPath = ImgStore.get('absolutePath')
+    // let file = path.join(outputPath, image);
+    // @ts-ignore
+    let file = path.join(global.ImgStore, image)
+    // let img = await Jimp.read(file);
     let cropw = Math.min(resized_w, w)
     let croph = Math.min(resized_h, h)
     try {
